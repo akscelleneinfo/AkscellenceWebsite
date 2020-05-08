@@ -1,0 +1,131 @@
+<!--==================main banner=======================-->
+<section id="career-life-avend" class="career-life-avend">
+  <div class="life-avend-banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="outer-valign">
+            <div class="inner-valign">
+              <div class="life-avend-bann-text">
+                <h1><b>Current Openings</b></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br />
+<!--===========end of main banner===========================-->
+
+<div class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="careerIntro">
+        <div>
+          <h4>
+            As a global IT innovator, we are looking for talented individuals to
+            join our team – from recent college grads to industry veterans.
+            Whether you are looking for a full-time, part-time, consulting, or
+            contract position, we have a host of opportunities for you to
+            explore.Any resource on H1 Visa also is welcome to join us. Our
+            company can do H1 transfer. We offer better than market salary plus
+            benefits and GC (process to start right away) etc.
+          </h4>
+        </div>
+        <div
+          class="col-md-12 box-square wow fadeInLeftSubtle   animated"
+          style="visibility: visible; animation-name: fadeInLeftSubtle;font-size:18px!important;"
+        >
+          <div class="col-md-4 current_opening">
+            <h4 style="font-family:CoreSansR35Regular;font-size:23px;">
+              Current Openings
+            </h4>
+            <ul class="nav nav-pills nav-stacked" *ngFor="let item of current">
+              <li class="itemClass">
+                <a data-toggle="tab" (click)="show(item.id)">
+                  {{ item.titel }}
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content col-md-7">
+            <div
+              id="menu"
+              class="tabClass"
+              *ngFor="let item of current"
+              [hidden]="item.hide"
+            >
+              <!-- {{ajay}} -->
+              <ng-container *ngIf="ajay == 1">
+                <h3>We require, Power Bi Expert. Location: Gurgaon, Haryana</h3>
+                <ul
+                  style="word-spacing:1px;line-height:1.3;"
+                  *ngFor="let dis of item.dis"
+                  [hidden]="item.hide"
+                >
+                  <li
+                    class="careertext"
+                    innerHTML="Location: {{ dis.Location }}"
+                  ></li>
+                  <li
+                    class="careertext"
+                    innerHTML="Requirement: {{ dis.Requirement }}"
+                  ></li>
+                  <li
+                    class="careertext"
+                    innerHTML="Required Skills: {{ dis.Required_Skills }}"
+                  ></li>
+                  <li
+                    class="careertext"
+                    innerHTML="Preferences: {{ dis.Preferences }}"
+                  ></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay == 2">
+                <h3>
+                  DotNet MVC Application Developer with Angular 2 or abore OR
+                  Knockout
+                </h3>
+                <ul
+                  style="word-spacing:1px;line-height:1.3;"
+                  *ngFor="let dis of item.dis"
+                  [hidden]="item.hide"
+                >
+                  <li
+                    class="careertext"
+                    innerHTML="Location: {{ dis.Location }}"
+                  ></li>
+                  <li
+                    class="careertext"
+                    innerHTML="Position: {{ dis.Position }}"
+                  ></li>
+                  <li class="careertext">
+                    Requirement: We require DotNet MVC Developer
+                  </li>
+                  <li>Required_Skills:</li>
+                  <p>
+                    <span
+                      >Application Development, DotNet MVC, Angular 2 or abore
+                      OR Knockout, Oracle/SQL Server DB</span
+                    >
+                  </p>
+                  <li>Preferences:</li>
+                  <p>
+                    <span> Relevant 5+ Years.</span><br />
+                    <span>
+                      <li>Notice Period:</li>
+                      15-Days.
+                    </span>
+                  </p>
+                </ul>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!------------------------------------------------------------------------------>

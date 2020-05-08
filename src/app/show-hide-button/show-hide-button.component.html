@@ -1,0 +1,38 @@
+<div class="container">
+  <div>
+    <div class="panel panel-default" *ngFor="let faq of faqs; let i = index">
+      <div
+        class="panel-heading"
+        role="tab"
+        id="headingOne"
+        style="color: #1f1f1f;
+    background-color:lightblue;border-color: black;"
+      >
+        <h4 class="panel-title" style="font-size:19px;">
+          <a
+            role="button"
+            data-toggle="collapse"
+            data-parent="#accordion"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+            (click)="toggle(i)"
+          >
+            <!-- <i class="{{ glyphicon }}"></i> -->
+            <li class="{{ faq.icon }}"></li>
+            {{ faq.header }}
+          </a>
+        </h4>
+      </div>
+
+      <div
+        role="tabpanel"
+        class="panel-body"
+        style="background-color:white;color:#000000;font-size:17px;"
+        aria-labelledby="headingOne"
+        *ngIf="faqID == i"
+      >
+        <div [innerHtml]="faq.description"></div>
+      </div>
+    </div>
+  </div>
+</div>

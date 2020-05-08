@@ -1,0 +1,210 @@
+
+.career-test-section .career-section {
+  background-color: #fff;
+  padding-bottom: 9em;
+  /* padding-top: 2em; */
+}
+
+.career-test-section .career-section .career-heading {
+  font-family: "UniviaProBook";
+  font-size: 37.5px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.career-test-section .career-section .career-desc {
+  font-family: "CoreSansR25Light";
+  font-size: 17.25px;
+  padding-bottom: 2em;
+	text-align:left;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.career-test-section .career-section h6 {
+  font-family: "UniviaProRegular";
+  font-size: 16.5px;
+  position: relative;
+  margin-bottom: 2em;
+  text-transform: uppercase;
+}
+
+.career-test-section .career-section h6 a {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.career-test-section .career-section h6 a:after {
+  content: '';
+  position: absolute;
+  left: 45%;
+  /* background-image: url(../img/icons.png); */
+  height: 10px;
+  width: 14px;
+  background-position: 0 100%;
+  background-size: 178.571429%;
+}
+
+.career-test-section .career-section .career-img {
+  position: absolute;
+  top: 40%;
+   right: -12%; 
+  height: 300px;
+}
+.career-test-section .testimonial-section .twiiter-share-img {
+  position: absolute;
+  left: 16%;
+  top: 30px;
+  }
+  .career-test-section .testimonial-section h1 {
+  font-family: "UniviaProBook";
+  font-size: 30.5px;
+  padding-left: 3em;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  }
+  .img-responsive{
+  max-width: 100%;
+  height: auto;
+  }
+  .testimonial-section{
+  background-color:#efefef;
+  padding-bottom: 3em;
+  /* padding-top: 2em; */
+  }
+  
+  #myCarousel{
+  background-color:#efefef;
+  }
+  
+  .carousel-control.left {
+  background-image: none;
+  color:#737373;
+  text-shadow:none;
+  
+  }
+  .carousel-control.right {
+  background-image: none;
+  color:#737373;
+  text-shadow:none;
+  
+  }
+  .carousel-control {
+  color:#737373;
+  text-shadow:none;
+  }
+  .carousel-control:hover{
+  color:#737373;
+  text-shadow:none;
+  }
+  .testimonial-section .test-img-text {
+  text-align: left;
+  }
+  .testimonial-section .test-img-text h6 {
+  font-family: "CoreSansR45Medium";
+  font-size: 18.75px;
+  letter-spacing: 1px;
+  color: #383333;
+  font-weight: 400;
+  line-height: 1.1;
+  }
+  
+  .testimonial-section .test-img-text .test-name {
+  color: #a0a0a0;
+  font-family: "CoreSansR25Light";
+  padding-bottom: 0px;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  margin-bottom:0px;
+  }
+  .testimonial-section .test-img-text .test-date {
+  color: #a0a0a0;
+  font-family: "CoreSansR25Light";
+  margin-top: 0px;
+	
+  padding-bottom: 10px;
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  }
+  .testimonial-section .text-desc {
+  font-family: "CoreSansR25Light";
+  font-size: 19px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 4em; 
+  line-height: 1.4;
+  }
+ .testimonial-section .text-desc ol,li {
+  font-family: "CoreSansR25Light";
+  font-size: 19px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top:1em;
+  padding-bottom:0em;
+	
+  line-height: 1.4;
+  }
+  .testimonial-section .text-desc a {
+  text-decoration: none;
+  color: #1f1f1f;
+  }
+  
+  .testimonial-section .text-desc a .s1,ol,li {
+  font-family: "CoreSansR45Medium";
+  color: #1f1f1f;
+  letter-spacing: 1px;
+  text-align: left;
+  }
+  
+  span,ol,li{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+@media(max-width:480px){
+	.carousel-inner ol li{
+	margin-left:50px;
+}
+	.carousel-inner ol>li{
+  /* margin-top:-15px; */
+  margin-top: 0px;
+  padding-top: 10px;
+}
+}
+@media screen and (max-width:320px){
+  .arrow{
+    margin-left: 73px!important;
+  }
+  #arrow2{
+    margin-left: 178px!important;
+  }
+  #arrow1{
+    margin-left: -5.2px!important;
+  }
+}
+@media screen and (max-width:425px){
+  .arrow{
+    margin-left: 90px;
+  }
+  #arrow2{
+    margin-left: 194px;
+  }
+  #arrow1{
+    margin-left: 8.8px;
+  }
+}
+@media screen and (max-width:375px){
+  .arrow{
+    margin-left: 90px;
+  }
+  #arrow2{
+    margin-left: 194px;
+  }
+  #arrow1{
+    margin-left: 8.8px;
+  }
+}

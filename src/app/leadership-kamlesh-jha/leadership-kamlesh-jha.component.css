@@ -1,0 +1,81 @@
+.aksinfo {
+  background-color: #fff;
+  margin-top: 6em;
+  border-radius: 5px;
+}
+
+.aksc-people-img {
+  width: auto;
+  position: relative;
+  top: -40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0 auto;
+}
+
+.aks-people-text {
+  padding: 10px 25px 30px;
+  margin-top: -50px;
+  height: 150px;
+}
+
+p {
+  font-size: 15px !important;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 23px !important;
+  letter-spacing: 0.5px;
+}
+
+.aks-section {
+  background-color: #fdf6f6;
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.aks-lead {
+  font-size: 37px;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 991px) {
+  .leadership-bann-section {
+    background-position: 72% 50%;
+    height: 520px;
+    background-image: url(../../assets/images/2.jpg) !important;
+  }
+  .leadership-bann-section1 {
+    background-position: 72% 50%;
+    height: 520px;
+    background-image: url(../../assets/images/1.jpg) !important;
+  }
+  .leadership-bann-section2 {
+    background-position: 72% 50%;
+    height: 520px;
+    background-image: url(../../assets/images/3.jpg) !important;
+  }
+  .leadership-bann-section3 {
+    background-position: 72% 50%;
+    height: 520px;
+    background-image: url(../../assets/images/4.jpg) !important;
+  }
+  .content1 {
+    padding-left: 10px !important;
+    background-color: #000000;
+    height: 185px !important;
+    padding-top: 20px;
+    padding-right: 10px !important;
+  }
+  .content1 p {
+    font-family: UniviaPro-Light !important;
+    font-size: 17px !important;
+  }
+}
+.aks-lead {
+  font-family: UniviaPro-Light;
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!--<guid value="b2f01744-ff8c-4105-99c4-e9d569f0a9a6" />-->
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+
+<url>
+
+<loc>https://blog.akscellenceinfo.com/</loc>
+
+<image:image>
+
+<image:loc>https://blog.akscellenceinfo.com/media/vcyioi3q/banner-white.jpg:</image:loc>
+
+<image:caption>Akscellence logo </image:caption>
+	<image:title>Blog Akscellence info </image:title>
+</image:image>
+</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/BI/Why-Manufacturing-companies-need-Analytics</loc>
+
+-<image:image>
+
+<image:loc>https://blog.akscellenceinfo.com/media/l2if0ihy/analatics.jpg</image:loc>
+<image:title>blog Akscellence Info</image:title>
+<image:caption>Power BI Analytics</image:caption>
+
+
+
+</image:image>
+
+</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/BI/Power-BI-service</loc>
+-<image:image>
+
+<image:loc>https://blog.akscellenceinfo.com/media/l2if0ihy/analatics.jpg</image:loc>
+<image:title>Blog Akscellence Info</image:title>
+			<image:caption>power bi service</image:caption>
+
+
+
+</image:image>
+
+</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/BI/Analytics-Beyond-Spreadsheet</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/okgf3yz2/akscellence-bi-1.png </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption>Analytics Beyond Spreadsheet</image:caption>
+	
+
+</image:image>
+	</url>
+
+
+
+<url>
+<loc>https://blog.akscellenceinfo.com/BI/Why-Traditional-BI-failing-to-resolve-Business-problems?</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/3mmpjyqs/bidata-page-001.jpg </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption>Why Traditional BI failing to resolve Business problems</image:caption>
+	
+
+</image:image>
+	</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/BI/How-Analytics-is-better-than-Traditional-reporting</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/ev4lpyz0/analatics.jpg </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption> How Analytics is better than Traditional reporting</image:caption>
+	<image:loc>https://blog.akscellenceinfo.com/media/0syn4qva/image006.jpg</image:loc>
+       <image:title>Blog Akscellence Info</image:title>
+       <image:caption> power bi analytics</image:caption>
+       
+         <image:loc>https://blog.akscellenceinfo.com/media/rqndttj2/image007.png</image:loc>
+       <image:title>Blog Akscellence Info</image:title>
+       <image:caption> power bi analytics</image:caption>
+<image:loc>https://blog.akscellenceinfo.com/media/rqndttj2/image007.png</image:loc>
+       <image:title>Blog Akscellence Info</image:title>
+       <image:caption> power bi analytics</image:caption>
+
+</image:image>
+	</url>
+		 
+<url>
+<loc>https://blog.akscellenceinfo.com/Sitecore/Sitecore-vs-Other-CMS</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/o05kol45/sitecore1.jpg </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption> Sitecore vs. Other CMS</image:caption>
+	
+       
+       
+</image:image>
+	</url>
+
+
+<url>
+<loc>https://blog.akscellenceinfo.com/Sitecore/Sitecore-deployment-strategies</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/nexkhkhj/sitecore-blue-green-approach.png </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption> Sitecore deployment strategies</image:caption>
+	
+       
+       
+</image:image>
+</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/Sitecore/Sitecore-Experience-Platform-Implementation</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/eqeiptog/akscellence-concept-cms-content-management-system.jpg </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption> Sitecore Experience Platform Implementation</image:caption>
+	
+       
+       
+</image:image>
+	</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/Sitecore/Generate-More-Revenue-of-Video-content-company-with-better-Customer-experience</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/jlknptub/sitecore-logo.png </image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption>Generate More Revenue of Video content company with better Customer experience</image:caption>
+	       
+</image:image>
+	</url>
+
+<url>
+<loc>https://blog.akscellenceinfo.com/Sitecore/NEW-FEATURES-IN-SITECORE</loc>
+-<image:image>
+  <image:loc>https://blog.akscellenceinfo.com/media/zkvl2l05/sitecore-commerce2.jpg</image:loc>
+  <image:title>Blog Akscellence Info</image:title>
+   <image:caption>NEW FEATURES IN SITECORE</image:caption>
+	
+       
+       
+</image:image>
+	</url>
+
+
+
+</urlset> 

@@ -1,0 +1,230 @@
+<section id="eye-inside" class="eye-inside">
+        <div class="eye-inside-banner" title="Sitecore deployment" style="background-image: url(../../assets/images/sitecore-blue-green-approach.png);">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="outer-valign">
+                                <div class="inner-valign">
+                                    <div class="ei-bann-text">
+                                        <h6>Sitecore Services</h6>
+                                        <h1>Sitecore deployment strategies</h1>
+                                        <p>January 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---end of section1--->
+        <div class="icon-bar wow fadeIn hidden-xs hidden-sm" data-wow-delay="1s" data-wow-duration="2s" id="icon-bar"
+            style="visibility: visible; animation-duration: 2s; animation-delay: 1s; animation-name: fadeIn;">
+            <a class="share">
+                <img src="https://www.avendus.com/dist/img/newsroom-inside/share.png" alt="" />
+            </a>
+            <a href="https://www.facebook.com/pg/akscellence" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/akscellence" class="twitter" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+    
+            <a href="https://www.linkedin.com/company/akscellence/" class="linkedin" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <div class="container eye-inside-info">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="ei-info-bg wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1.5s"
+                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="icon-bar wow fadeIn visible-xs visible-sm animated" data-wow-delay="1s"
+                            data-wow-duration="2s" id="icon-bar"
+                            style="visibility: visible; animation-duration: 2s; animation-delay: 1s; animation-name: fadeIn;">
+                            <a class="share">
+                                <img src="https://www.avendus.com/dist/img/newsroom-inside/share.png" alt="" />
+                            </a>
+                            <a href="https://www.facebook.com/pg/akscellence" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://twitter.com/akscellence" class="twitter" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+    
+                            <a href="https://www.linkedin.com/company/akscellence/" class="linkedin" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <p class="ei-time">Read Time: 5 minutes <a (click)="onclick()"><span
+                                    style="float: right;background: white; "> <button style="border-color: black;
+                                      border-radius: 4px;
+                                      background: white;"><b style="color:red;">X</b></button></span></a></p>
+                       <div class="ei-desc">
+                            <p>Objective:
+                       
+                       Nowadays enterprises want applications to be deployed in such way that new version of the application can be introduced to production without making user see that application went down even for some time. From the user’s and the company’s point of view it’s the best possible scenario of deployment since new features can be introduced and bugs can be eliminated without any outage. It is more critical in case of sitecore, since enterprise not only have to deploy new functional change but also upgrade the version of sitecore time to time. There are below two strategies
+                       <br>
+                       <br>
+                       
+                       A.  <b>Manual Strategy:</b><br>
+                       This is an old strategy where we can follow below steps to avoid any downtime: (Assumption is that we have multiple load balancer CD(content delivery) servers)<br>
+                       
+                       </p><ol>
+                       
+                       <li>Create the copy of web (web_deploy) and core (core_deploy) databases.</li>
+                       <li>Create additional solr cores for web (sitecore_web_index_deploy) and core (sitecore_core_index_deploy).</li>
+                       <li>Change authoring server configuration and point to above solr cores (sitecore_web_index_deploy and sitecore_core_index_deploy).</li>
+                       <li>Re-index web and core database solr cores.</li>
+                       <li>Change authoring server configuration and point back to original solr cores (sitecore_web_index and sitecore_web_index).</li>
+                       <li>Take CD1 out from load balancer.</li>
+                       <li>Change CD1 configuration and point to above created web and core databases along with solr cores.</li>
+                       <li>Add CD1 back to load balancer.</li>
+                       <li>Take CD2 out from load balancer.</li>
+                       <li>Change CD2 configuration and point to above created web and core databases along with solr cores.</li>
+                       <li>Add CD2 back to load balancer.</li>
+                       <li>Run database scripts on master, web and core databases.</li>
+                       <li>Deploy code change to authoring server.</li>
+                       <li>Re-index the content on solr for web and core database.</li>
+                       <li>Take CD1 out from load balancer.</li>
+                       <li>Deploy application/code changes to CD1 server.</li>
+                       <li>Change CD1 configuration and point back to original web and core databases along with solr cores.</li>
+                       <li>Add CD1 back to load balancer.</li>
+                       <li>Take CD2 out from load balancer.</li>
+                       <li>Deploy application/code changes to CD2 server.</li>
+                       <li>Change CD2 configuration and point back to original web and core databases along with solr cores.</li>
+                       <li>Add CD2 back to load balancer.</li>
+                       </ol>
+                       <br>
+                       <b>Pros:</b><br>
+                       
+                       This strategy doesn’t need additional infrastructure which in turn save cost.<br>
+                       
+                       
+                       <br>
+                       <b>Cons:</b><br>
+                       
+                       We need to involve larger team (application, infrastructure, sql admins etc.) every time whenever there is a deployment.
+                       
+                       Rollback is complex as we need to perform most of the above steps again.<br>
+                       <br>
+                       
+                       
+                       <b>B. Blue Green Strategy:</b><br>
+                       
+                       
+                       
+                       Blue Green is a “deployment strategy that relies on two identical production infrastructures that alternate between active and inactive. One environment is referred to as blue (inactive), and the duplicate environment is dubbed green (active)”.<br>
+                       <br>
+                       
+                       
+                       In this approach, as you prepare a new release of your software you do your final stage of testing in the blue environment. Once the software is working in the blue environment, you switch the router so that all incoming requests go to the blue environment (blue becomes green) and the green one is now idle (green becomes blue).<br>
+                       <br>
+                        
+                       
+                       Since the databases (sql and mongo) are shared resources between authoring and production and any change there can affect both. Additionally, since we are dealing with a CMS, we must expect that authors regularly introduce changes to the database. Challenge is more in case of sitecore since schema is controlled by sitecore. We can have below approach to overcome this:<br>
+                       
+                       
+                       <ol>
+                       
+                       <li>Synchronize content from green environment to blue environment.</li>
+                       <li>Upgrade new version of database changes in blue environment.</li>
+                       <li>Upgrade sitecore application servers in blue environment.</li>
+                       <li>Re-Index content on solr (content is new after synch) in blue environment.</li>
+                       <li>Test application thoroughly.</li>
+                       <li>Make blue environment live (green) and live environment ideal (blue)</li>
+                       </ol>
+                       <br>
+                       <b>Pros:</b><br>
+                       
+                       We don’t need to involve larger team (application, infrastructure, sql admins etc.) every time whenever there is a deployment.<br>
+                       <br>
+                       
+                       
+                       Rollback is easier which can be achieved by just switching blue to green and green to blue.<br>
+                       
+                       <br>
+                       
+                       <b>Cons:</b><br>
+                       
+                       This strategy requires additional infrastructure which in turn cost more.<br>
+                       <br>
+                       
+                       
+                       <b> Pre-requisite for this strategy:</b><br>
+                              
+                       <ol>
+                       <li>Content author will not author during deployment.</li>
+                       <li>Session state is out-proc and session database is common between blue and green.</li>
+                              </ol>
+                       <p></p>
+                                </div>
+                        <span class="eye-author">Author:Mr. Ashish sharma</span>
+    
+                        <div class="text-right">
+                            <!-- <a class="btn btn-default ei-next-prev-btn"
+                                                         href="https://www.avendus.com/india/avendus-eye/esg-launch-with-melissa-brown"
+                                                         role="button">Next</a> -->
+                            <!-- <a [routerLink]="['/sitecore-experience-commerce-implementation]">
+                                <button class="sim-button button-white"><span>Previous</span></button>
+                            </a> -->
+                            <a [routerLink]="['/Sitecore-and-Other-CMS']">
+                                <button class="sim-button button-white"><span>Previous</span></button>
+                            </a>
+                            <a [routerLink]="['/new-features-in-sitecore']">
+                                <button class="sim-button button-white"><span>Next</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="ei-read-more text-center">Read More</h2>
+    
+                    
+                    <div class="ei-read-blocks">
+                        <a [routerLink]="['/new-features-in-sitecore']">
+                            <p>January 2019</p>
+                            <h3>EXPLORING NEW FEATURES IN SITECORE 9.1</h3>
+                            <p class="ei-read-time">Read Time: 4 minutes</p>
+                        </a>
+                    </div>
+                    <div class="ei-read-blocks">
+                        <a [routerLink]="['/more-revenue-for-video-content-company']">
+                            <p>January 2019</p>
+                            <h3>Generate More Revenue of Video content company with better Customer experience</h3>
+                            <p class="ei-read-time">Read Time: 4 minutes</p>
+                        </a>
+                    </div>
+                    <div class="ei-read-blocks">
+                        <a [routerLink]="['/sitecore-experience-platform-implementation']">
+                            <p>January 2019</p>
+                            <h3>Sitecore Experience Platform Implementation</h3>
+                            <p class="ei-read-time">Read Time: 4 minutes</p>
+                        </a>
+                    </div>
+                    <div class="ei-read-blocks">
+                        <a [routerLink]="['/sitecore-experience-commerce-implementation']">
+                            <p>January 2019</p>
+                            <h3>Sitecore Experience Commerce Implementation</h3>
+                            <p class="ei-read-time">Read Time: 4 minutes</p>
+                        </a>
+                    </div>
+                    <div class="ei-read-blocks">
+                            <a [routerLink]="['/Sitecore-and-Other-CMS']">
+                                <p>January 2019</p>
+                                <h3>Sitecore vs. Other CMS</h3>
+                                <p class="ei-read-time">Read Time: 4 minutes</p>
+                            </a>
+                        </div>
+                    <div>
+                        <a (click)="onclick()" role="button">
+                            <button class="sim-button button-black">
+                                <span>View All</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

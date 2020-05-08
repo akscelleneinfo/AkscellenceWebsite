@@ -1,0 +1,147 @@
+@media screen and (max-width:320px){
+  .GEclientImage{
+  margin-left: 117px!important;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  }
+  }
+  @media screen and (max-width:375px){
+  .GEclientImage{
+  margin-left: 130px!important;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  }
+  }
+  @media screen and (max-width:425px){
+  .GEclientImage{
+  margin-left: 119px!important;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  }
+  }
+
+#client1{
+  background-color:black;
+  }
+  .client-heading{
+  font-family: "CoreSansR35Regular";
+      font-size: 25.5px;
+      color:white;
+      text-align: center;
+      letter-spacing: 2px;
+    font-weight:bold!important;
+    text-transform:uppercase;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+ 
+  .client2{
+  background-color:white;
+  }
+  
+  .client2 .client-content .col-md-4{
+  margin-top:13px;
+  }
+  .client2 h4{
+    font-family: "CoreSansR35Regular";
+      font-size: 18.5px;
+      color: black;
+      text-align:center;
+      letter-spacing: 2px;
+  }
+  .client2 h5{
+    font-family: "CoreSansR35Regular";
+      font-size: 15.5px;
+      color: blue;
+      text-align:center;
+      letter-spacing: 2px;
+  }
+  #clientContainer{
+    height: 191px;
+  }
+  @media screen and (min-width:320px){
+    #clientImage{
+      margin-left: 94px!important;
+      margin-top: 12px;
+    }
+    #colimageGE{
+      margin-top: -45px;
+     
+    }
+  }
+  @media screen and (min-width:375px){
+    #clientImage{
+      margin-left: 110px!important;
+      margin-top: 12px;
+      
+    }
+    #clientImageGE{
+      margin-left: 20px;
+    }
+  }
+  @media screen and (min-width:425px){
+    #clientImage{
+      margin-left: 130px!important;
+      margin-top: 12px;
+      
+    }
+  }
+  @media screen and (max-width:991px){
+    #clientContainer{
+      height: 491px;
+    }
+    .glyphicon-chevron-right{
+      margin-top: 440px!important;
+      margin-right: 7px!important;
+    }
+    .glyphicon-chevron-left{
+      margin-top: 440px!important;
+      margin-left: -10px!important;
+    }
+  }
+  @media screen and (max-width:991px){
+    .client-content{
+    margin-left:-70px;
+    }
+  }
+  .carousel-control.right {
+    right: 0px;
+    left: auto;
+    }
+    /* .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: -0.5;
+    } */
+    
+    .carousel-control.left {
+    /* background-image: -webkit-gradient(linear,left top, right top,color-stop(0, rgba(0,0,0,.5)),to(rgba(0,0,0,.0001))); */
+    /* background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%); */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+    }
+    
+    .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none; 
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+    }
+    
+    .carousel-control.left {
+    background-image:none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+    }
+  /*-------------end of clients--------------------------------*/

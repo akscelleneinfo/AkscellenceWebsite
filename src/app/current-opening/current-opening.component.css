@@ -1,0 +1,106 @@
+ /*===========main banner======================*/
+ #career-life-avend .life-avend-banner {
+    background: url(../../assets/images/about-banner1.png) no-repeat 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 30% 50%;
+   width: 100%;
+   height: 525px;
+   position: relative;
+}
+.container-fluid {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.row {
+   margin-left: -15px;
+   margin-right: -15px;
+   margin-top:-20px;
+}
+#career-life-avend .life-avend-banner .col-md-12 {
+   display: flex;
+   align-items: center;
+}
+#career-life-avend .life-avend-banner .col-md-12 .outer-valign {
+   display: table;
+   height: 525px;
+   width: 100%;
+}
+#career-life-avend .life-avend-banner .col-md-12 .outer-valign .inner-valign {
+   display: table-cell;
+   vertical-align: middle;
+}
+#career-life-avend .life-avend-banner .col-md-12 .outer-valign .inner-valign .life-avend-bann-text h1 {
+   text-align: center;
+   font-family: "UniviaProUltraLight";
+   margin-bottom: 0;
+   color:black;
+   font-size: 45px;
+   letter-spacing: 2px;
+}
+#career-life-avend .life-avend-banner .col-md-12 .outer-valign .inner-valign .life-avend-bann-text p {
+   font-family: "CoreSansR35Regular";
+   font-size: 18.75px;
+   text-align: center;
+   letter-spacing: 1px;
+   padding-bottom: 5px;
+   line-height: 1.4;
+}
+@media screen and (max-width:991px){
+   .life-avend-bann-text h1{
+       font-size:37px!important;
+       margin-top:-23vh!important;
+   }
+}
+/*=============end of main banner============================================*/
+/*------------------content below the banner----------------------------*/
+#careerIntro h4{
+       font-family: "CoreSansR25Light";
+   font-size: 17px;
+    text-align:justify;
+   margin: 24px;
+    padding-bottom:0em;
+   line-height:1.4;
+   letter-spacing:1px;
+}
+.tab-content #menu1 h3{
+   font-family:"CoreSansR35Regular";
+}
+/*------------end of the content below the banner-------------------------*/
+.life-avend-bann-text h2 {
+   text-align: center;
+   font-family: "UniviaProUltraLight";
+   margin-bottom: 0;
+   background-color:black;
+   color:white;
+   font-size: 45px;
+   letter-spacing: 2px;
+       height: 87px;
+   padding-top: 15px;
+}
+/*=======================main content====================================*/
+.col-md-12 .outer-valign .inner-valign .life-avend-bann-text h3 {
+   text-align: center;
+   font-family: "UniviaProUltraLight";
+   margin-bottom: 0;
+   color:black;;
+   font-size: 45px;
+   letter-spacing: 2px;
+}
+.col-md-12 .outer-valign .inner-valign .life-avend-bann-text h4 {
+   font-family: "CoreSansR45Regular";
+   font-size: 18.75px;
+   text-align:left;
+   letter-spacing: 1px;
+   line-height: 1.4;
+}
+.col-md-12 .outer-valign .inner-valign .life-avend-bann-text p,ul {
+   font-family: "CoreSansR35Regular";
+   font-size: 18.75px;
+   letter-spacing: 1px;
+   padding-bottom: 5px;
+   line-height: 1.4;
+}
+/*=========================end of main content==========================*/

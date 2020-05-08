@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+<urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!--<guid value="b2f01744-ff8c-4105-99c4-e9d569f0a9a6" />-->
+
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+
+
+<url>
+
+<loc>https://akscellenceinfo.com/</loc>
+
+<lastmod>2019-09-23</lastmod>
+
+
+
+
+<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/logo-black.png</image:loc>
+
+<image:caption>Akscellence logo </image:caption>
+	<image:title> Akscellence info </image:title>
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/1200px-regal_beloit_logosvg.png</image:loc>
+<image:title>Akscellence Info</image:title>
+<image:caption>Akscellence CLIENTELE</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/antz.jpg</image:loc>
+<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence CLIENTELE</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/b2b (1).png</image:loc>
+<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence CLIENTELE</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/images.jpg</image:loc>
+<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence CLIENTELE</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/buy.png</image:loc>
+<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence CLIENTELE</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/logos.jpg</image:loc>
+<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence CLIENTELE</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+-<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/IBM1.png</image:loc>
+<image:title>IBM logo</image:title>
+			<image:caption>Akscellence PARTNERS</image:caption>
+
+<image:caption/>
+
+</image:image>
+
+
+<image:image>
+
+<image:loc>https://akscellenceinfo.com/assets/images/GE-logo.jpg</image:loc>
+<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence PARTNERS</image:caption>
+</image:image>
+<image:image>
+<image:loc>https://www.akscellenceinfo.com/assets/images/0.jpg</image:loc>
+			<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence CLIENTELE Testimonial</image:caption>
+</image:image>
+<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/1024px-linkedin_logosvg.png</image:loc>
+			<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence LinkedIn</image:caption>
+</image:image>
+<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-career-pencil.png</image:loc>
+			<image:title>Akscellence Info</image:title>
+			<image:caption>Akscellence joinUs </image:caption>
+</image:image>
+<image:image>
+<image:loc>https://akscellenceinfo.com/assets/images/logo-black.png</image:loc>
+<image:caption>Akscellence logo </image:caption>
+	<image:title> Akscellence info </image:title>
+</image:image>
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/bi-analytics</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>BI-Analytics</image:title>
+			<image:caption>Akscellence BI-Analytics </image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-bi.png</image:loc>
+			<image:title>BI-Analytics</image:title>
+			<image:caption>Analytics Beyond Spreadsheet </image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-analatics2.jpg</image:loc>
+			<image:title>BI-Analytics</image:title>
+			<image:caption>Power BI service</image:caption>
+		</image:image>
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/sitecore</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Sitecore services</image:title>
+			<image:caption>Akscellence Sitecore services </image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-concept-cms-content-management-system.jpg</image:loc>
+			<image:title>Sitecore services</image:title>
+			<image:caption> Sitecore Experience Platform Implementation </image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/akscellece-sitecore.jpg</image:loc>
+			<image:title>Sitecore services</image:title>
+			<image:caption>Sitecore Experience Commerce Implementation </image:caption>
+		</image:image>
+  
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/Integration-Solutions</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Integration Solutions</image:title>
+			<image:caption>Akscellence Integration Solutions </image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/integration-cloud.png</image:loc>
+			<image:title>Integration Solutions</image:title>
+			<image:caption>INTEGRATION SOLUTIONS USING WEBMETHODS </image:caption>
+		</image:image>
+</url>
+
+<url>
+  <loc>https://www.akscellenceinfo.com/eCommerce</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Ecommerce Site</image:title>
+			<image:caption>Akscellence Ecommerce Site </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/sitecore-commerce2.jpg</image:loc>
+			<image:title>Ecommerce Site</image:title>
+			<image:caption>Ecommerce Site Using nopCommerce  </image:caption>
+		</image:image>
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/CMS-Solution</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+   <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>CMS SOLUTION</image:title>
+			<image:caption>Akscellence CMS SOLUTION </image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://www.akscellenceinfo.com/assets/images/umbraco.jpg</image:loc>
+			<image:title>CMS SOLUTION</image:title>
+			<image:caption>CMS Solution using UMBRACO </image:caption>
+		</image:image>
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/.Net-Solution</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>.NET SOLUTIONS</image:title>
+			<image:caption>Akscellence .NET SOLUTIONS </image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/dotnet.jpg</image:loc>
+			<image:title>.NET SOLUTIONS</image:title>
+			<image:caption>.NET CUSTOM SOLUTIONS </image:caption>
+		</image:image>
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/aboutus</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner.png</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence About Us </image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-gurgaon-jpg.jpg</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone1</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/milestone2.jpg</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone 2 </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/capture-buywithexpert.jpg</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone 3 </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-sitecore.jpg</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone 4 </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-usmanufacturer.jpg"</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/milestone8-2.jpg</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone 6 </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/milestone7b-1.jpg</image:loc>
+			<image:title>About Us</image:title>
+			<image:caption>Akscellence Milestone 7</image:caption>
+		</image:image>
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/life-at-Aks</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Life At Akscellence </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-photo-gallery-pic1.png</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/img_20181224_124231.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-photo-gallery-pic2.png</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-photo-gallery-pic3.png"</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellece-photo-gallery-pic5.jpeg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-photo-gallery-pic4.jpeg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/pic1.png"</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image><image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/img_20190507_162237.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image><image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/pic3.png</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence Gallery </image:caption>
+		</image:image><image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-gallery.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence  Gallery </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/sanjay-profile-pic.png</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence LeaderShip </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-ashish-sharma.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence LeaderShip </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-kamlesh_jha.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence LeaderShip </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-pranay_gupta.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>Akscellence LeaderShip </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/pp.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL  </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/ankit.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL </image:caption>
+		</image:image><image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/vandna-mam.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL </image:caption>
+		</image:image><image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/img_20190626_113709_852.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/img-20190606-wa0018.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/img-20190723-wa0138.jpg"</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/img20190708140457.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/31250611_2076756085931360_6840658517069811903_n.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/rkgupta.jpg</image:loc>
+			<image:title>Life At Akscellence</image:title>
+			<image:caption>EMPLOYEE TESTIMONIAL</image:caption>
+		</image:image>
+				</url>
+	<url>
+  <loc>https://www.akscellenceinfo.com/blog</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/banner-white.png</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption>Akscellence Blog </image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-bi.png</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+			</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-analatics.jpg</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption>Power BI service </image:caption>
+			</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/sitecore1.jpg</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption> Sitecore vs. Other CMS </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/sitecore-commerce2.jpg</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption>EXPLORING NEW FEATURES IN </image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-analatics.jpg"</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption>Traditional reports vs. Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/sitecore4.jpg</image:loc>
+			<image:title>Blog</image:title>
+			<image:caption>ORACLE ERP CLOUD CHANGING TRADITIONAL ERP</image:caption>
+		</image:image>
+		
+</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/faq</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>FAQ</image:title>
+			<image:caption>Akscellence FAQ </image:caption>
+		</image:image>
+		</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/career</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Career</image:title>
+			<image:caption>Akscellence Career </image:caption>
+		</image:image>
+		</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/careers</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Careers</image:title>
+			<image:caption>Akscellence Current Openings</image:caption>
+		</image:image>
+		</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/experience-professional</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  <image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner.png</image:loc>
+			<image:title>Experienced Professionals</image:title>
+			<image:caption>Akscellence Experienced Professionals</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/1.jpg</image:loc>
+			<image:title>Experienced Professionals</image:title>
+			<image:caption> SANJAY KUMAR</image:caption>
+		</image:image>		
+		</url>
+        <url>
+  <loc>https://www.akscellenceinfo.com/contactus</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/about-banner1.png</image:loc>
+			<image:title>Contact Us</image:title>
+			<image:caption>Akscellence Contact Us</image:caption>
+		</image:image>
+	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/delhi.png"</image:loc>
+			<image:title>Contact Us</image:title>
+			<image:caption> card address Image</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/bengaluru.png</image:loc>
+			<image:title>Contact Us</image:title>
+			<image:caption>card address Image</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/new-york.png</image:loc>
+			<image:title>Contact Us</image:title>
+			<image:caption>card address Images</image:caption>
+		</image:image>
+	</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/Analytics-Beyond-Spreadsheet</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-bi.png</image:loc>
+			<image:title>Analytics Beyond Spreadsheet</image:title>
+			<image:caption> Akscellence Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled.png"</image:loc>
+			<image:title>Analytics Beyond Spreadsheet</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled1.png"</image:loc>
+			<image:title>Analytics Beyond Spreadsheet</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled2.png"</image:loc>
+			<image:title>Analytics Beyond Spreadsheet</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled3.png"</image:loc>
+			<image:title>Analytics Beyond Spreadsheet</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled4.png"</image:loc>
+			<image:title>Analytics Beyond Spreadsheet</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+		
+	</url>
+
+	<url>
+  <loc>https://www.akscellenceinfo.com/Market-for-BI-Data-Analyticst</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/bidata-page-001.jpg</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption> AkscellenceMarket for BI  Data Analytics</image:caption>
+		</image:image>
+	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled5.png"</image:loc>
+			<image:title>Market for BI Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled6.png"</image:loc>
+			<image:title>Market for BI Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled7.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled8.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Analytics Beyond Spreadsheet</image:caption>
+		</image:image>
+		<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/untitled9.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled10.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled11.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled12.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled13.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled14.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled15.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled16.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled17.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled18.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled19.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled20.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled21.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled22.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled23.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled24.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled25.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled26.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled27.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled28.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+		<image:image>
+		<image:loc>https://www.akscellenceinfo.com/assets/images/untitled29.png"</image:loc>
+			<image:title>Market for BI  Data Analytics</image:title>
+			<image:caption>Market for BI  Data Analytics</image:caption>
+		</image:image>
+			
+	</url>
+
+	<url>
+  <loc>https://www.akscellenceinfo.com/Power-BI-service</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/analatics.jpg</image:loc>
+			<image:title>Power BI service</image:title>
+			<image:caption>Power BI service</image:caption>
+		</image:image>
+	
+	</url>
+
+	<url>
+  <loc>https://www.akscellenceinfo.com/Publishing-Power-BI-reports-with-Python-visuals</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/analatics.jpg</image:loc>
+			<image:title>Publishing Power BI reports with Python visuals</image:title>
+			<image:caption>Publishing Power BI reports with Python visuals</image:caption>
+		</image:image>
+	
+	</url>
+	<url>
+  <loc>https://www.akscellenceinfo.com/sitecore-experience-platform-implementation</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-concept-cms-content-management-system.jpg</image:loc>
+			<image:title>Sitecore Experience Platform Implementation</image:title>
+			<image:caption>Sitecore Experience Platform Implementation</image:caption>
+		</image:image>
+	
+	</url>
+
+	<url>
+  <loc>https://www.akscellenceinfo.com/sitecore-experience-platform-implementation</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-concept-cms-content-management-system.jpg</image:loc>
+			<image:title>Sitecore Experience Platform Implementation</image:title>
+			<image:caption>Sitecore Experience Platform Implementation</image:caption>
+		</image:image>
+	
+	</url>
+
+
+	<url>
+  <loc>https://www.akscellenceinfo.com/sitecore-experience-commerce-implementation</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellece-sitecore.jpg</image:loc>
+			<image:title>Sitecore Experience Commerce Implementation</image:title>
+			<image:caption>Sitecore Experience Commerce Implementation</image:caption>
+		</image:image>
+	
+	</url>
+	<url>
+  <loc>https://www.akscellenceinfo.com/sitecore-experience-commerce-implementation</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellece-sitecore.jpg</image:loc>
+			<image:title>Sitecore Experience Commerce Implementation</image:title>
+			<image:caption>Sitecore Experience Commerce Implementation</image:caption>
+		</image:image>
+
+	</url>
+<url>
+  <loc>https://www.akscellenceinfo.com/Sitecore-and-Other-CMS</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/sitecore1.jpg</image:loc>
+			<image:title>Sitecore vs. Other CMS</image:title>
+			<image:caption>Sitecore vs. Other CMS</image:caption>
+		</image:image>
+	
+	</url>
+
+	<url>
+  <loc>https://www.akscellenceinfo.com/Sitecore-deployment</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/sitecore-blue-green-approach.png</image:loc>
+			<image:title>Sitecore deployment strategies</image:title>
+			<image:caption>Sitecore deployment strategies</image:caption>
+		</image:image>
+	
+	</url>
+
+		<url>
+  <loc>https://www.akscellenceinfo.com/new-features-in-sitecore</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/sitecore-commerce2.jpg</image:loc>
+			<image:title>EXPLORING NEW FEATURES IN SITECORE 9.1</image:title>
+			<image:caption>EXPLORING NEW FEATURES IN SITECORE 9.1</image:caption>
+		</image:image>
+	
+	</url>
+
+		<url>
+  <loc>https://www.akscellenceinfo.com/failure-of-traditional-bi</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/homebg2.jpg</image:loc>
+			<image:title>Failure of traditional business intelligence</image:title>
+			<image:caption>Failure of traditional business intelligence</image:caption>
+		</image:image>
+	
+	</url>
+
+		<url>
+  <loc>https://www.akscellenceinfo.com/more-revenue-for-video-content-company</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/sitecore-logo.png</image:loc>
+			<image:title>Generate More Revenue of Video content company with better Customer experience</image:title>
+			<image:caption>Generate More Revenue of Video content company with better Customer experience</image:caption>
+		</image:image>
+
+	</url>
+
+		<url>
+  <loc>https://www.akscellenceinfo.com/reports-vs-Analytics</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/akscellence-analatics.jpg</image:loc>
+			<image:title>Traditional reports vs. Analytics</image:title>
+			<image:caption>Traditional reports vs. Analytics</image:caption>
+		</image:image>
+	
+	</url>
+
+		<url>
+  <loc>https://www.akscellenceinfo.com/oracle-erp</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/oracle.jpg</image:loc>
+			<image:title>ORACLE ERP CLOUD CHANGING TRADITIONAL ERP</image:title>
+			<image:caption>ORACLE ERP CLOUD CHANGING TRADITIONAL ERP</image:caption>
+		</image:image>
+
+	</url>
+
+		<url>
+  <loc>https://www.akscellenceinfo.com/Productivity-using-software-automation</loc>
+  <lastmod>2019-09-11T11:22:17+00:00</lastmod>
+  	<image:image>
+  <image:loc>https://www.akscellenceinfo.com/assets/images/sitecore4.jpg</image:loc>
+			<image:title>Productivity Improvement using software automation</image:title>
+			<image:caption>Productivity Improvement using software automation</image:caption>
+		</image:image>
+	
+	</url>
+</urlset> 

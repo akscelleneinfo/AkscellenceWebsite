@@ -1,0 +1,408 @@
+  /*------------------------------------------EXPERIENCED PROFESSIONAL-------------------------------------------------------*/
+  .exp-prof-banner {
+    background-image: url(../../assets/images/about-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 50%;
+    width: 100%;
+    height: 525px;
+	margin-top:-91px;
+    position: relative;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.exp-prof-banner .col-md-12 .outer-valign {
+  display: table;
+  height: 525px;
+  width: 100%;
+}
+.exp-prof-banner .col-md-12 .outer-valign .inner-valign {
+  display: table-cell;
+  vertical-align: middle;
+}
+.exp-prof-banner .col-md-12 .outer-valign .inner-valign .exp-prof-bann-text h1 {
+  text-align: center;
+  font-family: "UniviaProUltraLight";
+  margin-bottom: 0;
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+    font-weight: 400;
+}
+@media screen and (max-width:991px){
+	.exp-prof-banner .col-md-12 .outer-valign .inner-valign .exp-prof-bann-text h1 {
+	margin-top:-28.5vh;
+		font-size:37px!important;
+	}
+	#section_3 h1 {
+	font-size:28px!important;
+	}
+	#section_4 .row-1 h1 {
+	font-size:28px!important;
+	}
+}
+.exp-prof-banner .col-md-12 .outer-valign .inner-valign .exp-prof-bann-text p {
+  font-family: "CoreSansR35Regular";
+  font-size: 18.75px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  line-height: 1.4;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.exp-prof-desc {
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+.exp-prof-desc p {
+  font-size: 15.75px;
+  font-family: "CoreSansR25Light";
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+@media screen and (max-width:991px){
+	.exp-prof-desc p {
+	font-size:17px;
+	}
+}
+@media screen and (max-width:991px){
+	#section_3 {
+	height:470px! important;
+	}
+	#section_3 p{
+	font-size:17px;
+	}
+	#section_3 h6 {
+	font-size:16px;
+	}
+	.stud-grad-prog-content p {
+	font-size:17px;
+	}
+	
+}
+#section_3{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 281px;
+    position: relative;
+    padding-top: 1.5em;
+}
+
+#section_3 h1{
+    font-family: "UniviaPro-Light";
+    font-size: 37.5px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    color: white;
+    margin-top: 16%;
+}
+#section_3 h6{
+    font-size: 15.75px;
+    line-height: 1.4;
+    font-family: "CoreSansR25Light";
+    color: white;
+    letter-spacing: 1px;
+}
+
+#section_3 p{
+    font-size: 15.75px;
+    line-height: 1.4;
+    font-family: "CoreSansR25Light";
+    letter-spacing: 1px;
+    color: #bababa;
+    padding-bottom: 20px;
+}
+
+#section_5 .cep-life-avend-content{
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+
+#section_5 .button-white{
+    color: #333;
+    border-radius: 30px;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+#section_5 .sim-button {
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 144px;
+  border: 0;
+  cursor: pointer;
+}
+
+#section_5 .col-1 h1{
+  font-family: "UniviaPro-Light";
+    font-size: 37.5px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    color: #1f1f21;
+    padding-top: 6%;
+    padding-bottom: 8%;
+}
+
+#section_5 .col-2 h1{
+  font-family: "UniviaProThin";
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: #1f1f1f;
+  line-height: 1.1;
+}
+
+#section_5{
+  background-image: url();
+  height:500px;
+  position:relative;
+}
+#section_4{
+  background-color: #eaeaea;
+  height: 500px;
+  position:relative;
+}
+#section_4 .row-1 h1{
+    text-align:center;
+    color: #262626;
+    letter-spacing: 2px;
+    font-size: 37.5px;
+    font-family: "UniviaPro-Light";
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.stud-grad-prog-blocks {
+  position: relative;
+  bottom: -70px;
+  z-index: 8;
+}
+ .col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+  position:relative;
+  min-height:1px;
+}
+
+.col-md-6{
+  position:relative;
+  min-height:1px;
+}
+ .stud-grad-prog-content {
+  background-color: #1f1f1f;
+  padding: 40px;
+  height: 430px;
+  color: #7d7d7d;
+  padding-bottom: 20px;
+}
+.stud-grad-prog-content:hover {
+  transition: all .5s ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px #1b1b1b, 0 3px 28px 0 #1b1b1b;
+  z-index: 8;
+  position: relative;
+}
+ .stud-grad-prog-content h1 {
+  font-family: "UniviaPro-Light";
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+ .stud-grad-prog-content h6 {
+  font-family: "CoreSansR45Medium";
+  font-size: 15.75px;
+  letter-spacing: 1px;
+}
+ .stud-grad-prog-content p {
+  font-family: "CoreSansR25Light";
+  font-size: 15.75px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  padding-bottom: 10px;
+}
+ .col-md-4 a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+.button-black span {
+  z-index: 99;
+  display: block;
+  font-size: 14px;
+  font-family: "UniviaPro-Light";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+
+}
+
+.button-black {
+  background-color: #3e3e3e;
+  color: #f5f5f5;
+  border-radius: 30px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  position: relative;
+  border: 1px solid #f5f5f5;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.sim-button {
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 144px;
+  border: 0;
+  cursor: pointer;
+}
+
+button {
+  outline: none !important;
+  outline-color: transparent !important;
+  font-family: inherit;
+    font-size: inherit;
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-rendering: auto;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+.button-black::before {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: -29px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 190px solid rgba(202,195,195,0.4);
+  z-index: 1;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.button-black::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: -27px;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 190px solid rgba(255,255,255,0.25);
+  z-index: 1;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.csg-apply {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #262626;
+  text-align: center;
+}
+
+.csg-apply h1 {
+  font-family: "UniviaPro-Light";
+  font-size: 37.5px;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.csg-apply p {
+  font-family: "CoreSansR25Light";
+  font-size: 17.25px;
+  letter-spacing: 1px;
+  color: #f5f5f5;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.csg-apply p span a {
+  font-family: "CoreSansR45Medium";
+  color: #fff;
+  border-bottom: 3px solid #cc1919;
+}
+
+.csg-apply .sim-button {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.button-red {
+  color: #f5f5f5;
+  border-radius: 30px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: transparent;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #cc1919;
+}
+
+.button-red span {
+  z-index: 99;
+  display: block;
+  font-size: 14px;
+  font-family: "UniviaPro-Light";
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

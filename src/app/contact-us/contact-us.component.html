@@ -1,0 +1,219 @@
+<section id="contact" class="contact">
+  <div class="contact banner">
+    <div class="container-fluid contact-banner">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="outer-valign">
+            <div class="inner-valign">
+              <h1><b>Contact Us</b></h1>
+              <p>Locate our offices or get in touch with us</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="tab-content">
+        <div
+          class="tab-pane india active"
+          id="india"
+          style="margin-bottom:-25px;"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="col-md-6 col-lg-4col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="state-icon">
+                      <img
+                        src="../../assets/images/delhi.png"
+                        alt="akscellence contactus"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <h5>Gurugram</h5>
+                    <h6
+                      class="text-left"
+                      style="letter-spacing: 1px; font-weight: 800;"
+                    >
+                      Corporate Office
+                    </h6>
+                    <p>
+                      J1/38,DLF Phase -2,<br />
+                      Sector 25, Heritage City,<br />
+                      Gurugram Haryana-122002.
+                    </p>
+                    <p style="    margin-top: -11px;">
+                      Tel No: (0124)-4371756<br />
+                    </p>
+                    <p>Akscellence Info Solutions LLP.</p>
+
+                    <p class="companymail" style="margin-top:-10px;">
+                      contact@akscellenceinfo.com<br />
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="state-icon">
+                      <img
+                        src="../../assets/images/bengaluru.png"
+                        alt="akscellence contactus"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <h5>Bengaluru</h5>
+                    <br />
+                    <p>
+                      175 &, 176<br />
+                      Bannerghatta Main Rd,<br />
+                      Dollars Colony,Bengaluru,<br />
+                      Karnataka -560076
+                    </p>
+                    <p style="    margin-top: -20px;">
+                      Tel No: (0124)-4371756<br />
+                    </p>
+                    <p>Akscellence Info Solutions LLP.</p>
+                    <p class="companymail" style="margin-top: -10px;">
+                      contact@akscellenceinfo.com<br />
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="card">
+                    <div class="state-icon1">
+                      <img
+                        src="../../assets/images/new-york.png"
+                        alt="akscellence contactus"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <h5 style="margin-left:29%;">USA</h5>
+                    <br />
+                    <p>
+                      901 S. Whitney Way,<br />
+                      Madison, WI 53711.
+                    </p>
+
+                    <p style="margin-top: -5px;">
+                      <br />
+                      Tel No: +1 (404) 8906236
+                    </p>
+                    <p>Akscellence Info Solutions LLC.</p>
+
+                    <p class="companymail">contact@akscellenceinfo.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+              <h2>Get in Touch</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <form #contectUs="ngForm" (ngSubmit)="onSubmit(contectUs)">
+                <div
+                  class="form-group"
+                  [class.has-error]="name.invalid && name.touched"
+                  [class.has-success]="name.valid"
+                >
+                  <label class="form-label" id="nameLabel" for="name"></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    tabindex="1"
+                    [(ngModel)]="emailBody.name"
+                    #name="ngModel"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" id="emailLabel" for="email"></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="toEmail"
+                    name="toEmail"
+                    placeholder="Your Email"
+                    tabindex="2"
+                    [(ngModel)]="emailBody.toEmail"
+                    #toEmail="ngModel"
+                    required
+                    pattern="^[a-zA-z0-9_.+-]+@[a-zA-z0-9_.+-]+\.[a-zA-z0-9_.+-]+$"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label
+                    class="form-label"
+                    id="subjectLabel"
+                    for="sublect"
+                  ></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    tabindex="3"
+                    [(ngModel)]="emailBody.subject"
+                    #subject="ngModel"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label
+                    class="form-label"
+                    id="messageLabel"
+                    for="message"
+                  ></label>
+                  <textarea
+                    rows="6"
+                    cols="60"
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    placeholder="Your message"
+                    tabindex="4"
+                    style="height:100px!important;"
+                    [(ngModel)]="emailBody.message"
+                    #message="ngModel"
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="text-center margin-top-25">
+                  <button
+                    class="btn btn-mod btn-border btn-large"
+                    type="submit"
+                    [disabled]="contectUs.invalid"
+                  >
+                    <b>submit</b>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

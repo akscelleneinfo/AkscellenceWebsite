@@ -1,0 +1,240 @@
+<section id="career-life-avend" class="career-life-avend">
+  <div class="life-avend-banner" style="height:400px!important;" title="sitecore">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="outer-valign">
+            <div class="inner-valign">
+              <div class="life-avend-bann-text">
+                <h1><b>Sitecore services</b></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------INNER CONTENT END------------------------------ -->
+
+  <!-- --------------------------------MAIN CONTENT---------------------------- -->
+
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12 mainContent"
+        style="margin-top:-110px;"
+      >
+        <p>
+          Sitecore is a customer experience management product with everything
+          needed to create most powerful, relevant, and individualized customer
+          experiences. It connects brands with their customers for lifelong
+          relationships. Whether it is web content management, complete digital
+          experience management or an integrated commerce platform Identify
+          which products will best benefit your business. Sitecore can be
+          deployed in a variety of environments, depending on your business and
+          infrastructure needs.
+          <br />
+          <br />
+          <strong>Key features of Sitecore: </strong>
+        </p>
+
+        <ul>
+          <li>
+            Context driven content for better customer engagement to enhance
+            customer experience.
+          </li>
+
+          <li>
+            Context driven commerce to increase successful transactions and
+            enable up-selling and cross-selling.
+          </li>
+
+          <li>
+            Strong features to address challenging multilingual and multichannel
+            requirements.
+          </li>
+
+          <li>
+            Integrated commerce (Online + Offline store + Multi-country business
+            + Multiple websites) using unified.
+          </li>
+
+          <li>Contextual intelligence.</li>
+
+          <li>
+            Machine learning engine designed to deliver real-time analytics
+            across both native and 3rd party customer data.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-padding" style="font-family: CoreSansR25Light;">
+    <div class="container demo">
+      <div>
+        <div
+          class="panel panel-default"
+          *ngFor="let sitecore of sitecores; let i = index"
+        >
+          <div
+            class="panel-heading"
+            role="tab"
+            id="headingOne"
+            style="    color: white;
+                        background: #286090;
+                  border-color: black;"
+          >
+            <h4 class="panel-title" style="font-size:19px;">
+              <a
+                role="button"
+                data-toggle="collapse"
+                data-parent="#accordion"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+                (click)="toggle(i)"
+              >
+                <!-- <i class="{{ glyphicon }}"></i> -->
+                <li class="{{ sitecore.icon }}"></li>
+                {{ sitecore.header }}
+              </a>
+            </h4>
+          </div>
+
+          <div
+            role="tabpanel"
+            class="panel-body"
+            style="background-color:white;color:#000000;font-size:17px;"
+            aria-labelledby="headingOne"
+            *ngIf="sitecoreID == i"
+          >
+            <div [innerHtml]="sitecore.description"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <app-sitecore-card></app-sitecore-card> -->
+
+<div class="block-section">
+  <div class="container">
+    <div class="row">
+      <div class="main-outer-box">
+        <div class="unit-class">
+          <div class="box">
+              <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Platform-Implementation">
+                        <div class="field-wrapper">
+                <div class="blog-text">
+                  <h6>Sitecore Services</h6>
+                  <h5>January 2019</h5>
+                  <h2>Sitecore Experience Platform Implementation</h2>
+                  <p>
+                    Sitecore CMS is the robust content management system that
+                    scales for enterprise needs. It provides deep data insights
+                    and delivers omni channel personalized content in real
+                    time. Global brands turn to Sitecore for multisite and
+                    multilingual content management at scale, with the
+                    flexibility that enterprises demand.
+                  </p>
+                  <span>Read Time: 4 minutes</span>
+                </div>
+                <div
+                  class="box-img"
+                  style="background-image: url(../../assets/images/akscellence-concept-cms-content-management-system.jpg);
+                      
+  "
+                ></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+              <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Platform-Implementation">
+              <!-- <div class="box-img" style="background-image: url(http://akscellenceinfo.com/media/1611/akscellence-concept-cms-content-management-system.jpg)"></div> -->
+              <div class="field-wrapper">
+                <div class="blog-text">
+                  <div
+                    class="box-img"
+                    style="background-image: url(../../assets/images/akscellence-concept-cms-content-management-system.jpg);
+                          "
+                  ></div>
+                  <h6>Sitecore Services</h6>
+                  <h5>January 2019</h5>
+                  <h2>Sitecore CMS Key Features</h2>
+                  <ul>
+                    <li>Content editing with real-time personalization .</li>
+                    <li>
+                      Managing multiple websites with content in several
+                      languages.
+                    </li>
+                    <li>Advanced search options.</li>
+                    <li>Multichannel support and Sitecore Mobile SDK.</li>
+                    <li>Advanced experience analytics.</li>
+                  </ul>
+                  <span>Read Time: 7 minutes</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="unit-class"></div>
+
+        <div class="unit-class">
+          <div class="box">
+            <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Commerce-Implementation">
+              <div class="field-wrapper">
+                <div class="box-img" style="background-image:url()"></div>
+                <div class="blog-text">
+                  <h6>Sitecore Services</h6>
+                  <h5>January 2019</h5>
+                  <h2>Sitecore Experience Commerce Implementation</h2>
+                  <p>
+                    The ecommerce platform that transforms shoppers into
+                    lifelong customers. Sitecore Experience Commerce lets you
+                    market in the context of your customers' current or past
+                    interactions with your brand before, during and after the
+                    purchase.
+                  </p>
+
+                  <span>Read Time: 4 minutes</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="box">
+            <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Commerce-Implementation">
+              <div class="field-wrapper">
+                <div
+                  class="box-img"
+                  style="background-image: url(../../assets/images/akscellece-sitecore.jpg);
+                          background-size: 101% 107%;"
+                ></div>
+                <div class="blog-text">
+                  <h6>Sitecore Services</h6>
+                  <h5>January 2019</h5>
+                  <h2>Key Sitecore Experience Commerce Features</h2>
+                  <ul>
+                    <li>Personalized shopping experiences.</li>
+                    <li>
+                      Managing stock orders, prices, campaigns, customer
+                      profiles and product catalog.
+                    </li>
+                    <li>
+                      Integrates product search, shopping cart interactions and
+                      purchase with customer data from Sitecore XP.
+                    </li>
+                  </ul>
+                  <span>Read Time: 4 minutes</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
