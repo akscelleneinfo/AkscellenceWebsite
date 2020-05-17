@@ -12,7 +12,7 @@ export class DotNetSolutionComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.metaTagAndTitleService.getTitleAndMetaTags(5);
+    this.metaTagAndTitleService.getTitleAndMetaTags(6);
   }
 
 }

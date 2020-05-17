@@ -10,6 +10,7 @@ import { ECommerceComponent } from "./e-commerce/e-commerce.component";
 import { CMSSolutionComponent } from "./cms-solution/cms-solution.component";
 import { DotNetSolutionComponent } from "./dot-net-solution/dot-net-solution.component";
 import { SitecoreComponent } from "./sitecore/sitecore.component";
+import { BiUsecaseComponent } from './bi-usecase/bi-usecase.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SitecoreComponent } from "./sitecore/sitecore.component";
     ECommerceComponent,
     CMSSolutionComponent,
     DotNetSolutionComponent,
-    SitecoreComponent
+    SitecoreComponent,
+    BiUsecaseComponent
   ],
   imports: [RouterModule, ServiceAndTechRoutingMoule, CommonModule]
 })

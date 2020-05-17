@@ -19,6 +19,16 @@
   margin-bottom: 20px;
   }
   }
+  @media screen and (min-width: 375px)
+{
+  #clientImageP {
+    height: 120px;
+    margin-left: 87px!important;
+    width: 264px!important;
+    margin-top: -14px;
+}
+}
+
 
 #client1{
   background-color:black;

@@ -34,19 +34,6 @@ export class FaqComponent implements OnInit {
       icon: "more-less glyphicon glyphicon-plus"
     },
     {
-      header: "What are cloud computing services offered by Akscellence ?",
-      description: `<p><span>Cloud Computing is a process of delivering/enabling scalable, expandable and almost perfectly elastic software services using internet technologies. It is a method of delivering Software as a Service (SaaS), delivered in a pay-per-use basis.</span></p>
-      <p><span>The goal of our cloud computing consultancy is to allow client(s) to take beneﬁt of latest &amp; suitable technologies for them in cloud solutions, without the need for deep knowledge about or expertise with each one of them. Our cloud team aims to cut costs, and helps the clients focus on their core business instead of being impeded by IT obstacles.</span></p>
-      <p>We provide SaaS ( Software as a Service )Cloud computing services end to end</p>
-      <ul>
-      <li class="_AXc">Help in selection of right cloud provider</li>
-      <li class="_AXc">Do configuration of server and software on cloud infrastructure</li>
-      <li class="_AXc">Do deployment of  application on cloud server</li>
-      <li class="_AXc">Do Maintenance &amp; Support of cloud infrastructure and applications deployed</li>
-      </ul>`,
-      icon: "more-less glyphicon glyphicon-plus"
-    },
-    {
       header: "What are BI & Analytics services provided by Akscellence ?",
       description: `<p>Current focus of BI and analytics platform markets is shifting from IT-led reporting to business-led self-service analytics. There are number of tools available for providing solutions around this.We provide BI &amp; Analytics solutions using Power BI , Tableau &amp; Qlik View / Qlik Sense.</p>
       <p>We specialize in providing end-to-end BI solution for businesses to help them aggregate and analyze their data and help them manage their data effectively. By connecting strategic, analytical, and operational initiatives, our BI solutions ensure our client’s competitive edge. </p>
@@ -57,6 +44,19 @@ export class FaqComponent implements OnInit {
       <li>If business user wants to get deeper insight into an aspect of the business which required to add a new data source, then developer would have to go back and re-code the associations by hand all over again. Business users failed to explore data, make discoveries, and uncover insights that can be used to help them solve their problems in new ways.</li>
       <li>The performance gains are overshadowed by the enormous complexity and additional delays imposed by an ETL process.</li>
       <li>Traditional BI required Specialized consultants to perform ETL tasks and set up the Data Warehouses that few decision-makers will use.</li>
+      </ul>`,
+      icon: "more-less glyphicon glyphicon-plus"
+    },
+    {
+      header: "What are cloud computing services offered by Akscellence ?",
+      description: `<p><span>Cloud Computing is a process of delivering/enabling scalable, expandable and almost perfectly elastic software services using internet technologies. It is a method of delivering Software as a Service (SaaS), delivered in a pay-per-use basis.</span></p>
+      <p><span>The goal of our cloud computing consultancy is to allow client(s) to take beneﬁt of latest &amp; suitable technologies for them in cloud solutions, without the need for deep knowledge about or expertise with each one of them. Our cloud team aims to cut costs, and helps the clients focus on their core business instead of being impeded by IT obstacles.</span></p>
+      <p>We provide SaaS ( Software as a Service )Cloud computing services end to end</p>
+      <ul>
+      <li class="_AXc">Help in selection of right cloud provider</li>
+      <li class="_AXc">Do configuration of server and software on cloud infrastructure</li>
+      <li class="_AXc">Do deployment of  application on cloud server</li>
+      <li class="_AXc">Do Maintenance &amp; Support of cloud infrastructure and applications deployed</li>
       </ul>`,
       icon: "more-less glyphicon glyphicon-plus"
     },

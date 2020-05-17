@@ -9,6 +9,7 @@ import { DotNetSolutionComponent } from "./dot-net-solution/dot-net-solution.com
 import { SitecoreComponent } from "./sitecore/sitecore.component";
 
 import { CommonModule } from "@angular/common";
+import { BiUsecaseComponent } from './bi-usecase/bi-usecase.component';
 
 const routes: Routes = [
   {
@@ -31,7 +32,8 @@ const routes: Routes = [
     path: ".Net-Solution",
     component: DotNetSolutionComponent
   },
-  { path: "sitecore", component: SitecoreComponent }
+  { path: "sitecore", component: SitecoreComponent },
+  { path: "bi-usecase", component: BiUsecaseComponent }
 ];
 
 @NgModule({
