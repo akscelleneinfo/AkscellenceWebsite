@@ -28,25 +28,25 @@ body{
 }
 #connectwithme{
   background-color: #ebebeb;
-                  color: #1f1f1f;
-                 margin-left: 42%;
-                  width: 189px;
-                  border-radius:0;
-                  font-size: 17px;
-                  text-align: left;
-                  font-family: UniviaPro-Light
-  
+  color: #1f1f1f;
+  margin-left: 45%;
+  width: 189px;
+  border-radius: 0;
+  font-size: 17px;
+  text-align: left;
+  font-family: UniviaPro-Light;
 }
 #connectwithme:hover{
   background-color: #EBEBFB;
 }
 @media screen and (max-width:425px){
   #connectwithme{
-    margin-left: 70px!important;
-    margin-top: 36%;
-    position: absolute;
+    margin-left: 112px!important;
+    margin-top: 19%!important;
+    position: absolute
   }
 }
+
   .about-bann-section .col-md-12 .outer-valign {
 
     display: table;
@@ -76,9 +76,18 @@ body{
     text-align: center;
     margin: 10px;
     margin-left: 42px !important;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    line-height: 1.4;
   }
-
+@media screen and (max-width:425px){
+  .about-bann-section .col-md-12 .outer-valign .inner-valign .about-banntext h3{
+    margin-left: 146px !important;
+    text-align: right!important;
+    letter-spacing: 2px!important;
+    line-height: 1.5!important;
+    padding-top: 17px!important;
+  }
+}
   /*-------------------------------------------------------------------------------------------------*/
   /* SECOND LEVEL */
   .navbar-default1 .nav>ul>li>ul {

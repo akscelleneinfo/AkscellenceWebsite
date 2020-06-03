@@ -1054,3 +1054,15 @@ h2 {
     font-size: 14px;
   }
 }
+@media screen and(min-width:425px){
+  #bicardim1{
+    height: 499px!important;
+    width: 553px!important;
+    background-size: cover;
+    padding-right: -16px;
+    margin-right: -40px;
+    margin-left: -92px!important;
+    overflow: unset;
+    margin-top: -55px;
+  }
+}
