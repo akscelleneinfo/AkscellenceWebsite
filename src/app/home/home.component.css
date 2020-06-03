@@ -21,7 +21,32 @@ body{
     padding-right: 0;
     /* background-image: url(img/about-banner1.png);  */
   }
-
+  .button-grey{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+#connectwithme{
+  background-color: #ebebeb;
+                  color: #1f1f1f;
+                 margin-left: 42%;
+                  width: 189px;
+                  border-radius:0;
+                  font-size: 17px;
+                  text-align: left;
+                  font-family: UniviaPro-Light
+  
+}
+#connectwithme:hover{
+  background-color: #EBEBFB;
+}
+@media screen and (max-width:425px){
+  #connectwithme{
+    margin-left: 70px!important;
+    margin-top: 36%;
+    position: absolute;
+  }
+}
   .about-bann-section .col-md-12 .outer-valign {
 
     display: table;
@@ -41,6 +66,8 @@ body{
     margin: 10px;
     margin-left: 42px !important;
     letter-spacing: 2px;
+    line-height: 1.4;
+
   }
 
   .about-bann-section .col-md-12 .outer-valign .inner-valign .about-banntext h3 {
