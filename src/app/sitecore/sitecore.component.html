@@ -21,10 +21,7 @@
 
   <div class="container">
     <div class="row">
-      <div
-        class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12 mainContent"
-        style="margin-top:-110px;"
-      >
+      <div class="col-md-10 col-md-offset-1 col-xs-12 col-sm-12 mainContent" style="margin-top:-110px;">
         <p>
           Sitecore is a customer experience management product with everything
           needed to create most powerful, relevant, and individualized customer
@@ -74,27 +71,13 @@
   <div class="section-padding" style="font-family: CoreSansR25Light;">
     <div class="container demo">
       <div>
-        <div
-          class="panel panel-default"
-          *ngFor="let sitecore of sitecores; let i = index"
-        >
-          <div
-            class="panel-heading"
-            role="tab"
-            id="headingOne"
-            style="    color: white;
+        <div class="panel panel-default" *ngFor="let sitecore of sitecores; let i = index">
+          <div class="panel-heading" role="tab" id="headingOne" style="    color: white;
                         background: #286090;
-                  border-color: black;"
-          >
+                  border-color: black;">
             <h4 class="panel-title" style="font-size:19px;">
-              <a
-                role="button"
-                data-toggle="collapse"
-                data-parent="#accordion"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-                (click)="toggle(i)"
-              >
+              <a role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="true"
+                aria-controls="collapseOne" (click)="toggle(i)">
                 <!-- <i class="{{ glyphicon }}"></i> -->
                 <li class="{{ sitecore.icon }}"></li>
                 {{ sitecore.header }}
@@ -102,13 +85,8 @@
             </h4>
           </div>
 
-          <div
-            role="tabpanel"
-            class="panel-body"
-            style="background-color:white;color:#000000;font-size:17px;"
-            aria-labelledby="headingOne"
-            *ngIf="sitecoreID == i"
-          >
+          <div role="tabpanel" class="panel-body" style="background-color:white;color:#000000;font-size:17px;"
+            aria-labelledby="headingOne" *ngIf="sitecoreID == i">
             <div [innerHtml]="sitecore.description"></div>
           </div>
         </div>
@@ -125,8 +103,57 @@
       <div class="main-outer-box">
         <div class="unit-class">
           <div class="box">
-              <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Platform-Implementation">
-                        <div class="field-wrapper">
+            <a href="https://blog.akscellenceinfo.com/combination-of-bi-analytics-and-data-scientist/">
+              <div class="field-wrapper">
+                <div class="blog-text">
+                  <h6>BUSINESS INTELLIGENCE</h6>
+                  <h5>JUNE 2020</h5>
+                  <h2>WHY DO BUSINESSES NEED A PERFECT COMBINATION OF BI ANALYTICS AND DATA SCIENTIST?</h2>
+                  <p>
+                    We live in a decade that states changes in the concept of economy, business, medical sciences, and
+                    technology. With all the new prospects we are now focused on there are many new minds and businesses
+                    that are coming forth as start-ups or those already established are changing the policies with the
+                    time.
+                  </p>
+                  <span>Read Time: 4 minutes</span>
+                </div>
+                <div class="box-img" style="background-image: url(../../assets/images/Combination-of-BI-Analytics-and-Data-Scientist.png);
+                      
+  "></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="https://blog.akscellenceinfo.com/what-is-powerbi/">
+              <!-- <div class="box-img" style="background-image: url(http://akscellenceinfo.com/media/1611/akscellence-concept-cms-content-management-system.jpg)"></div> -->
+              <div class="field-wrapper">
+                <div class="blog-text">
+                  <div class="box-img" style="background-image: url(../../assets/images/akscellence-concept-cms-content-management-system.jpg);
+                          "></div>
+                  <h6>BUSINESS INTELLIGENCE</h6>
+                  <h5>MAY 2019</h5>
+                  <h2> WHAT IS POWERBI ?</h2>
+                  <P>
+                    The Power BI team has been working tirelessly to integrate AI capabilities into traditional BI
+                    scenarios. Because Power BI is constantly evolving, it’s easy to miss, or be unaware of, specific
+                    features. There are various AI and ML capabilities currently available in Power BI. The key takeaway
+                    here is that Power BI is much more than a “visualization tool”.
+                  </P>
+                  <span>Read Time: 7 minutes</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="unit-class"></div>
+
+        <div class="unit-class">
+          <div class="box">
+            <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Platform-Implementation">
+              <div class="field-wrapper">
+                <div class="box-img" style="background-image:url()"></div>
                 <div class="blog-text">
                   <h6>Sitecore Services</h6>
                   <h5>January 2019</h5>
@@ -139,55 +166,17 @@
                     multilingual content management at scale, with the
                     flexibility that enterprises demand.
                   </p>
+
                   <span>Read Time: 4 minutes</span>
                 </div>
-                <div
-                  class="box-img"
-                  style="background-image: url(../../assets/images/akscellence-concept-cms-content-management-system.jpg);
-                      
-  "
-                ></div>
               </div>
             </a>
           </div>
-
-          <div class="box">
-              <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Platform-Implementation">
-              <!-- <div class="box-img" style="background-image: url(http://akscellenceinfo.com/media/1611/akscellence-concept-cms-content-management-system.jpg)"></div> -->
-              <div class="field-wrapper">
-                <div class="blog-text">
-                  <div
-                    class="box-img"
-                    style="background-image: url(../../assets/images/akscellence-concept-cms-content-management-system.jpg);
-                          "
-                  ></div>
-                  <h6>Sitecore Services</h6>
-                  <h5>January 2019</h5>
-                  <h2>Sitecore CMS Key Features</h2>
-                  <ul>
-                    <li>Content editing with real-time personalization .</li>
-                    <li>
-                      Managing multiple websites with content in several
-                      languages.
-                    </li>
-                    <li>Advanced search options.</li>
-                    <li>Multichannel support and Sitecore Mobile SDK.</li>
-                    <li>Advanced experience analytics.</li>
-                  </ul>
-                  <span>Read Time: 7 minutes</span>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="unit-class"></div>
-
-        <div class="unit-class">
           <div class="box">
             <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Commerce-Implementation">
               <div class="field-wrapper">
-                <div class="box-img" style="background-image:url()"></div>
+                <div class="box-img" style="background-image: url(../../assets/images/akscellece-sitecore.jpg);
+                          background-size: 101% 107%;"></div>
                 <div class="blog-text">
                   <h6>Sitecore Services</h6>
                   <h5>January 2019</h5>
@@ -205,35 +194,8 @@
               </div>
             </a>
           </div>
-          <div class="box">
-            <a href="https://blog.akscellenceinfo.com/sitecore/Sitecore-Experience-Commerce-Implementation">
-              <div class="field-wrapper">
-                <div
-                  class="box-img"
-                  style="background-image: url(../../assets/images/akscellece-sitecore.jpg);
-                          background-size: 101% 107%;"
-                ></div>
-                <div class="blog-text">
-                  <h6>Sitecore Services</h6>
-                  <h5>January 2019</h5>
-                  <h2>Key Sitecore Experience Commerce Features</h2>
-                  <ul>
-                    <li>Personalized shopping experiences.</li>
-                    <li>
-                      Managing stock orders, prices, campaigns, customer
-                      profiles and product catalog.
-                    </li>
-                    <li>
-                      Integrates product search, shopping cart interactions and
-                      purchase with customer data from Sitecore XP.
-                    </li>
-                  </ul>
-                  <span>Read Time: 4 minutes</span>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
+        
       </div>
     </div>
   </div>
