@@ -9,48 +9,70 @@ import { MetaTagAndTitleService } from "../Service and Model/metaTags-Title.serv
 export class CurrentOpeningComponent implements OnInit {
   ajay: number = 1;
 
-  current: any[] = [
+  current: any[] = [    
     {
       id: 1,
-      titel: "We require, Power Bi Expert. Location: Gurgaon, Haryana",
+      titel: "Microsoft Power BI Developer - Data Visualization & Analysis",
       dis: [
         {
-          Location: "Gurgaon, Haryana/Bangalore",
-          Position: "1",
-          Requirement: `<ol>
-          <li><span>We are looking for Power BI Developer as well as SME.</span></li>
-          </ol>`,
-          Required_Skills: `<p><ol><li>Experience in Creating Dashboards, Data Models, and Reports in Microsoft Power BI.</li>
-          <li>Experience bringing in data from On-Premises Databases, Cloud Systems, and 3rd Party </li>
-          <li>Applications, and Creating a Data Model and converting them into Story. XML Publisher </li>
-          <li>reports/Basic Java will be added advantage</li>
-          </ol></p>`,
-          Preferences: `<p><span>Relevant 5+ Years.</span><br />
-          <span> Notice Period: 15-30 Days.</span></p>`,
-          hide: true
+          Job_Location: "Gurgaon, Haryana",
+          Job_Overview: "Microsoft Power BI Developer - Data Visualization & Analysis",
+          Responsibilities_Duties: `<ol>
+                                    <li><span>0 - 2 years experience developing Power BI solutions and reporting</span></li>
+                                    <li><span>0 - 2 years experience in Data Visualization and Analysis</span></li>
+                                    <li><span>0 - 2 years experience in Excel Pivot/vLookup/Reports etc.</span></li>
+                                   </ol>
+                                   <p><span>Experience working with dataset ingestion, data model creation, reports, dashboards, KPIs, Power BI Pro features, workspaces, security, etc.</span></p>`,
+          Qualifications: "Required Qualifications Bachelor's degree or equivalent experience",
+          Preferred_Qualifications: `<ol>
+                                    <li><span>ETL, SSAS and SSIS experience.</span></li>
+                                    <li><span>Strong data modeling experience.</span></li>
+                                    <li><span>Experience in building data marts.</span></li>
+                                    <li><span>Experience working with a variety of stakeholders, from managers to technical resources, to include the translation of business requirements into operational measures and reports.</span></li>
+                                    <li><span>AgileScrum project experience nice to have.</span></li>
+                                    <li><span>High level of demonstrable proficiency with Microsoft Excel, including Power Query, Power Pivot.</span></li>
+                                    <li><span>Connections to external data sources, REST APIs, pivot tables, charts, and slicers.</span></li>
+                                    <li><span>Proven ability to create, publish, and manage content packs.</span></li>
+                                    <li><span>Deep understanding of security as it pertains to data access, scope, and distribution of reports and Dashboards.</span></li>
+                                   </ol>`,
+          Contact_Us: `<p><span>Interested applicants, please share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a> or you can reach me at my Mobile# +91-98112-33516, Thanks...</span></p>`,
+          
         }
       ]
     },
     {
       id: 2,
       hide: true,
-      titel:
-        "DotNet MVC Application Developer with Angular 2 or abore OR Knockout",
+      titel: "Azure Cloud Lead with up to 10 years of experience on Data Factory, Lake, Brick and Synapse",
       dis: [
         {
-          Location: "Gurgaon, Haryana/Bangalore",
-          Position: "1",
-          Requirement: `<ol>
-          <li><span>We require DotNet MVC Developer</span></li>
-          </ol>`,
-          Required_Skills: `<p><span>Application Development, DotNet MVC, Angular 2 or abore OR Knockout, Oracle/SQL Server DB</span></p>`,
-          Preferences: `<p><span>Relevant 5+ Years.</span><br /><span> Notice Period: 15-Days.</span></p>`,
+          Job_Location: "Gurgaon, Haryana",
+          Job_Overview: "Microsoft Power BI Developer - Data Visualization & Analysis",
+          Responsibilities_Duties: `<ol>
+                                    <li><span>0 - 2 years experience developing Power BI solutions and reporting</span></li>
+                                    <li><span>0 - 2 years experience in Data Visualization and Analysis</span></li>
+                                    <li><span>0 - 2 years experience in Excel Pivot/vLookup/Reports etc.</span></li>
+                                   </ol>
+                                   <p><span>Experience working with dataset ingestion, data model creation, reports, dashboards, KPIs, Power BI Pro features, workspaces, security, etc.</span></p>`,
+          Qualifications: "Required Qualifications Bachelor's degree or equivalent experience",
+          Preferred_Qualifications: `<ol>
+                                    <li><span>ETL, SSAS and SSIS experience.</span></li>
+                                    <li><span>Strong data modeling experience.</span></li>
+                                    <li><span>Experience in building data marts.</span></li>
+                                    <li><span>Experience working with a variety of stakeholders, from managers to technical resources, to include the translation of business requirements into operational measures and reports.</span></li>
+                                    <li><span>AgileScrum project experience nice to have.</span></li>
+                                    <li><span>High level of demonstrable proficiency with Microsoft Excel, including Power Query, Power Pivot.</span></li>
+                                    <li><span>Connections to external data sources, REST APIs, pivot tables, charts, and slicers.</span></li>
+                                    <li><span>Proven ability to create, publish, and manage content packs.</span></li>
+                                    <li><span>Deep understanding of security as it pertains to data access, scope, and distribution of reports and Dashboards.</span></li>
+                                   </ol>`,
+          Contact_Us: `<p><span>Interested applicants, please share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a> or you can reach me at my Mobile# +91-98112-33516, Thanks...</span></p>`,
           hide: true
         }
       ]
     }
   ];
-  constructor(private metaTagAndTitleService: MetaTagAndTitleService) {}
+  constructor(private metaTagAndTitleService: MetaTagAndTitleService) { }
 
   ngOnInit() {
     this.metaTagAndTitleService.getTitleAndMetaTags(12);
@@ -63,6 +85,9 @@ export class CurrentOpeningComponent implements OnInit {
     }
     if (this.ajay == 2) {
       console.log(this.current[1]);
+    }
+    if (this.ajay == 3) {
+      console.log(this.current[2]);
     }
     // if (id == 1)
     //   this.ajay = this.current[0].dis[0].Location;

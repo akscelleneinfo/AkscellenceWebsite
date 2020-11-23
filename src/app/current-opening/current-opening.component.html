@@ -34,10 +34,8 @@
             benefits and GC (process to start right away) etc.
           </h4>
         </div>
-        <div
-          class="col-md-12 box-square wow fadeInLeftSubtle   animated"
-          style="visibility: visible; animation-name: fadeInLeftSubtle;font-size:18px!important;"
-        >
+        <div class="col-md-12 box-square wow fadeInLeftSubtle   animated"
+          style="visibility: visible; animation-name: fadeInLeftSubtle;font-size:18px!important;">
           <div class="col-md-4 current_opening">
             <h4 style="font-family:CoreSansR35Regular;font-size:23px;">
               Current Openings
@@ -51,74 +49,67 @@
             </ul>
           </div>
           <div class="tab-content col-md-7">
-            <div
-              id="menu"
-              class="tabClass"
-              *ngFor="let item of current"
-              [hidden]="item.hide"
-            >
+            <div id="menu" class="tabClass" *ngFor="let item of current" [hidden]="item.hide">
               <!-- {{ajay}} -->
-              <ng-container *ngIf="ajay == 1">
-                <h3>We require, Power Bi Expert. Location: Gurgaon, Haryana</h3>
-                <ul
-                  style="word-spacing:1px;line-height:1.3;"
-                  *ngFor="let dis of item.dis"
-                  [hidden]="item.hide"
-                >
-                  <li
-                    class="careertext"
-                    innerHTML="Location: {{ dis.Location }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Requirement: {{ dis.Requirement }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Required Skills: {{ dis.Required_Skills }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Preferences: {{ dis.Preferences }}"
-                  ></li>
+              <ng-container *ngIf="ajay === 1">
+                <h3>We are Hiring - Microsoft Power BI Developer - Data Visualization & Analysis</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Microsoft Power BI Developer -
+                    Data Visualization & Analysis</li>
+                  <li class="careertext" innerHTML=""><strong>Responsibilities & Duties : </strong>
+                    <ol>
+                      <li><span>0 - 2 years experience developing Power BI solutions and reporting</span></li>
+                      <li><span>0 - 2 years experience in Data Visualization and Analysis</span></li>
+                      <li><span>0 - 2 years experience in Excel Pivot/vLookup/Reports etc.</span></li>
+                      <li><span>Experience working with dataset ingestion, data model creation, reports, dashboards,
+                          KPIs, Power BI Pro features, workspaces, security, etc.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Preferred Qualifications : </strong>
+                    <ol>
+                      <li><span>ETL, SSAS and SSIS experience.</span></li>
+                      <li><span>Strong data modeling experience.</span></li>
+                      <li><span>Experience in building data marts.</span></li>
+                      <li><span>Experience working with a variety of stakeholders, from managers to technical resources,
+                          to include the translation of business requirements into operational measures and
+                          reports.</span></li>
+                      <li><span>AgileScrum project experience nice to have.</span></li>
+                      <li><span>High level of demonstrable proficiency with Microsoft Excel, including Power Query,
+                          Power Pivot.</span></li>
+                      <li><span>Connections to external data sources, REST APIs, pivot tables, charts, and
+                          slicers.</span></li>
+                      <li><span>Proven ability to create, publish, and manage content packs.</span></li>
+                      <li><span>Deep understanding of security as it pertains to data access, scope, and distribution of
+                          reports and Dashboards.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a> or you can reach me at my Mobile# +91-98112-33516, Thanks...</span></li>
                 </ul>
               </ng-container>
-              <ng-container *ngIf="ajay == 2">
-                <h3>
-                  DotNet MVC Application Developer with Angular 2 or abore OR
-                  Knockout
-                </h3>
-                <ul
-                  style="word-spacing:1px;line-height:1.3;"
-                  *ngFor="let dis of item.dis"
-                  [hidden]="item.hide"
-                >
-                  <li
-                    class="careertext"
-                    innerHTML="Location: {{ dis.Location }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Position: {{ dis.Position }}"
-                  ></li>
-                  <li class="careertext">
-                    Requirement: We require DotNet MVC Developer
+              <ng-container *ngIf="ajay === 2">
+                <h3>We are Hiring - Azure Cloud Lead with up to 10 Years of Experience on Data Factory, Lake, Brick and Synapse</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Azure Cloud Lead with up to 10 Years of Experience on Data Factory, Lake, Brick and Synapse</li>
+                  <li class="careertext" innerHTML=""><strong>Responsibilities & Duties : </strong>
+                    <ol>
+                      <li><span>Ability to understand the client requirements and be able to work independently, as part of a distributed team across geographies.</span></li>
+                      <li><span>Ability to move data from any sources to Azure Blob/Data Lake/Azure SQLDB/Azure SQL DW.</span></li>
+                      <li><span>Should be able to implement Azure Data Factory, Pipelines, U-SQL.</span></li>
+                      <li><span>Should have a strong understanding on ETL/Data warehousing.</span></li>
+                      <li><span>Ability to write SQL Queries</span></li>
+                      <li><span>Should be able to learn new technologies and cross-skill as per project need</span></li>
+                    </ol>
                   </li>
-                  <li>Required_Skills:</li>
-                  <p>
-                    <span
-                      >Application Development, DotNet MVC, Angular 2 or abore
-                      OR Knockout, Oracle/SQL Server DB</span
-                    >
-                  </p>
-                  <li>Preferences:</li>
-                  <p>
-                    <span> Relevant 5+ Years.</span><br />
-                    <span>
-                      <li>Notice Period:</li>
-                      15-Days.
-                    </span>
-                  </p>
+                  <li class="careertext" innerHTML=""><strong>Preferred Qualifications : </strong>
+                    <ol>
+                      <li><span>Required Qualifications BTech/MTech or equivalent degree.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a> or you can reach me at my Mobile# +91-98112-33516, Thanks...</span></li>
                 </ul>
               </ng-container>
             </div>
