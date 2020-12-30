@@ -12,10 +12,69 @@ export class CurrentOpeningComponent implements OnInit {
   current: any[] = [
     {
       id: 1,
-      titel: "Oracle Technical/Functional Consultant - Any Module for Bangkok/Gurgaon, Haryana",
+      titel: "Azure Machine Learning Lead",
       dis: [
         {
-          Job_Location: "Bangkok/Gurgaon, Haryana",
+          Job_Location: "Gurgaon, Haryana",
+          Job_Overview: "Azure Machine Learning Lead-Dated"           
+        }
+      ]
+    },
+    {
+      id: 2,
+      hide: true,
+      titel: "Azure Data Warehouse Lead",
+      dis: [
+        {
+          Job_Location: "Gurgaon, Haryana",
+          Job_Overview: "Azure Data Warehouse Lead-Dated",
+          Responsibilities_Duties: "",
+          Qualifications: "",
+          Preferred_Qualifications: "",
+          Contact_Us: "",
+          hide: true
+        }
+      ]
+    },
+    {
+      id: 3,
+      hide: true,
+      titel: "Business intelligence Analyst",
+      dis: [
+        {
+          Job_Location: "Gurgaon, Haryana",
+          Job_Overview: "Business intelligence Analyst",
+          Responsibilities_Duties: "",
+          Qualifications: "",
+          Preferred_Qualifications: "",
+          Contact_Us: "",
+          hide: true
+        }
+      ]
+    },
+    {
+      id: 4,
+      hide: true,
+      titel: "Email Marketing Executive",
+      dis: [
+        {
+          Job_Location: "Gurgaon, Haryana",
+          Job_Overview: "Email Marketing Executive who is passionate about creating an Email Marketing campaign to promote products or services through Email campaign execution",
+          Responsibilities_Duties: "",
+          Qualifications: "",
+          Preferred_Qualifications: "",
+          Contact_Us: "",
+          hide: true
+        }
+      ]
+    },
+    {
+      id: 5,
+      hide: true,
+      titel: "Oracle Technical/Functional Consultant - Any Module for Thailand (Bangkok)/ Gurgaon, Haryana",
+      dis: [
+        {
+          Job_Location: "Thailand (Bangkok)/ Gurgaon, Haryana",
           Job_Overview: "Oracle Technical/Functional Consultant – Any Module",
           // Responsibilities_Duties: `<ol>
           //                           <li><span>0 - 2 years experience developing Power BI solutions and reporting</span></li>
@@ -41,9 +100,9 @@ export class CurrentOpeningComponent implements OnInit {
       ]
     },
     {
-      id: 2,
+      id: 6,
       hide: true,
-      titel: "DotNet + React - Dot Net Framework, ASP.NET, C# for Hyderabad",
+      titel: "DotNet + React - Dot Net Framework, ASP.NET, C#",
       dis: [
         {
           Job_Location: "Hyderabad",
@@ -72,7 +131,7 @@ export class CurrentOpeningComponent implements OnInit {
       ]
     },
     {
-      id: 3,
+      id: 7,
       hide: true,
       titel: "Microsoft Power BI Developer - Data Visualization & Analysis",
       dis: [
@@ -103,7 +162,7 @@ export class CurrentOpeningComponent implements OnInit {
       ]
     },
     {
-      id: 4,
+      id: 8,
       hide: true,
       titel: "Azure Cloud Lead with up to 10 years of experience on Data Factory, Lake, Brick and Synapse",
       dis: [
