@@ -34,10 +34,8 @@
             benefits and GC (process to start right away) etc.
           </h4>
         </div>
-        <div
-          class="col-md-12 box-square wow fadeInLeftSubtle   animated"
-          style="visibility: visible; animation-name: fadeInLeftSubtle;font-size:18px!important;"
-        >
+        <div class="col-md-12 box-square wow fadeInLeftSubtle   animated"
+          style="visibility: visible; animation-name: fadeInLeftSubtle;font-size:18px!important;">
           <div class="col-md-4 current_opening">
             <h4 style="font-family:CoreSansR35Regular;font-size:23px;">
               Current Openings
@@ -51,74 +49,312 @@
             </ul>
           </div>
           <div class="tab-content col-md-7">
-            <div
-              id="menu"
-              class="tabClass"
-              *ngFor="let item of current"
-              [hidden]="item.hide"
-            >
+            <div id="menu" class="tabClass" *ngFor="let item of current" [hidden]="item.hide">
               <!-- {{ajay}} -->
-              <ng-container *ngIf="ajay == 1">
-                <h3>We require, Power Bi Expert. Location: Gurgaon, Haryana</h3>
-                <ul
-                  style="word-spacing:1px;line-height:1.3;"
-                  *ngFor="let dis of item.dis"
-                  [hidden]="item.hide"
-                >
-                  <li
-                    class="careertext"
-                    innerHTML="Location: {{ dis.Location }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Requirement: {{ dis.Requirement }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Required Skills: {{ dis.Required_Skills }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Preferences: {{ dis.Preferences }}"
-                  ></li>
+              <ng-container *ngIf="ajay === 1">
+                <h3>We are Hiring - Azure Machine Learning Lead</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Azure Machine Learning Lead
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Experience : </strong>6-10 years</li>
+                  <li class="careertext" innerHTML=""><strong>Budget : </strong>As per company standard</li>
+                  <li class="careertext" innerHTML=""><strong>Skill's Required : </strong>
+                    <ol>
+                      <li><span>Understand business use cases/ functionality and recommend appropriate solution Azure ML
+                          platform.</span></li>
+                      <li><span>Strong conceptual knowledge and working experience on all features of Azure ML Studio,
+                          ML Services and ML Ops.</span></li>
+                      <li><span>Aware of Machine Learning concepts like feature selection/deep learning/AI.</span></li>
+                      <li><span>Evangelize Azure Machine Learning services.</span></li>
+                      <li><span>Able to demonstrate the Azure ML Studio and services functionalities and features to all
+                          end users.</span></li>
+                      <li><span>Well versed with concepts for security policy enforcement, API Management and
+                          Integration with various data sources in Azure ML platform.</span></li>
+                      <li><span>Able to perform Enterprises readiness evaluation for Azure ML on various parameters like
+                          security, integrations and use cases.</span></li>
+                      <li><span>Hands-on experience in Machine Learning model development/deployment (CI/CD).</span>
+                      </li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Our Client is very eager to screen profiles
+                      quickly and get started on this asap. Thanks...</span></li>
                 </ul>
               </ng-container>
-              <ng-container *ngIf="ajay == 2">
-                <h3>
-                  DotNet MVC Application Developer with Angular 2 or abore OR
-                  Knockout
-                </h3>
-                <ul
-                  style="word-spacing:1px;line-height:1.3;"
-                  *ngFor="let dis of item.dis"
-                  [hidden]="item.hide"
-                >
-                  <li
-                    class="careertext"
-                    innerHTML="Location: {{ dis.Location }}"
-                  ></li>
-                  <li
-                    class="careertext"
-                    innerHTML="Position: {{ dis.Position }}"
-                  ></li>
-                  <li class="careertext">
-                    Requirement: We require DotNet MVC Developer
+              <ng-container *ngIf="ajay === 2">
+                <h3>We are Hiring - Azure Data Warehouse Lead</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Azure Data Warehouse Lead
                   </li>
-                  <li>Required_Skills:</li>
-                  <p>
-                    <span
-                      >Application Development, DotNet MVC, Angular 2 or abore
-                      OR Knockout, Oracle/SQL Server DB</span
-                    >
-                  </p>
-                  <li>Preferences:</li>
-                  <p>
-                    <span> Relevant 5+ Years.</span><br />
-                    <span>
-                      <li>Notice Period:</li>
-                      15-Days.
-                    </span>
-                  </p>
+                  <li class="careertext" innerHTML=""><strong>Experience : </strong>6-10 years</li>
+                  <li class="careertext" innerHTML=""><strong>Budget : </strong>As per company standard</li>
+                  <li class="careertext" innerHTML=""><strong>Skill's Required : </strong>
+                    <ol>
+                      <li><span>2+ year's experience working in a Cloud DW environment.</span></li>
+                      <li><span>Experience architecting cloud data solutions for BI and Analytics use case</span></li>
+                      <li><span>Experience with one or more of the following Azure technologies:</span>
+                        <ol>
+                          <li><span>Experience with Azure Data Factory (ADF) creating multiple complex pipelines and
+                              activities using both Azure and On-Prem data stores for full and incremental data loads
+                              into a Cloud DW</span></li>
+                          <li><span>Experience managing Azure Data Lakes (ADLS) and Data Lake Analytics and an
+                              understanding of how to integrate with other Azure Services. Knowledge of USQL and how it
+                              can be used for data transformation as part of a cloud data integration strategy</span>
+                          </li>
+                          <li><span>Experience with Azure SQL DW pricing and geo redundancy models. Understanding of
+                              when to use Azure SQL DW vs Azure SQL Server/DB and loading patterns to move data from
+                              blob or ADLS into Azure SQL DW</span></li>
+                        </ol>
+                      </li>
+                      <li><span>Understanding of the overall solution design of how Power BI and Azure Analysis Services
+                          (AAS) fits into Azure architecture</span></li>
+                      <li><span>Experience with other ETL tools like SSIS</span></li>
+                      <li><span>Consulting experience</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Our Client is very eager to screen profiles
+                      quickly and get started on this asap. Thanks...</span></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay === 3">
+                <h3>We are Hiring - Business intelligence Analyst</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Business intelligence Analyst</li>
+                  <li class="careertext" innerHTML=""><strong>Experience : </strong>6-10 years</li>
+                  <li class="careertext" innerHTML=""><strong>Budget : </strong>As per company standard</li>
+                  <li class="careertext" innerHTML=""><strong>Skill's Required : </strong>
+                    <ol>
+                      <li><span>Drawing inferences</span></li>
+                      <li><span>Applying scientific methods to gathering data</span></li>
+                      <li><span>Critical thinking</span></li>
+                      <li><span>Quantitative analysis</span></li>
+                      <li><span>Identifying high-value areas for inquiry</span></li>
+                      <li><span>Establishing benchmarks</span></li>
+                      <li><span>Identifying and measuring correlations</span></li>
+                      <li><span>Intellectual curiosity</span></li>
+                      <li><span>Classifying data</span></li>
+                      <li><span>Strategic planning</span></li>
+                      <li><span>SQL programming</span></li>
+                      <li><span>Power BI Visualization</span></li>
+                      <li><span>Strong Communication Skill</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Our Client is very eager to screen profiles
+                      quickly and get started on this asap. Thanks...</span></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay === 4">
+                <h3>We are Hiring - Email Marketing Executive</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Description : </strong>We are looking for an Email
+                    Marketing Executive who is passionate about creating an Email Marketing campaign to promote products
+                    or services through Email campaign execution with examples of significant growth and conversion. He
+                    will be responsible for generating sales leads through email marketing. Duties include the
+                    following:
+                    <ol>
+                      <li><span>Performs day-to-day email marketing activities including, but not limited to, email
+                          campaign set-up, scheduling, AB testing, Tagging, and Recurring, Triggered, Dynamic
+                          content-driven campaigns and Sharing reports.</span></li>
+                      <li><span>Preferably candidates who have good knowledge of Marketo, MailJet, Mail Chimp and who
+                          have worked on larger database segments like 10k + & have published more than 50+ email
+                          campaigns.</span></li>
+                      <li><span>Researching organizations and individuals online to identify new leads and potential new
+                          markets.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Email Marketing Executive who is
+                    passionate about creating an Email Marketing campaign to promote products or services through Email
+                    campaign execution</li>
+                  <li class="careertext" innerHTML=""><strong>Experience : </strong>3-7 years</li>
+                  <li class="careertext" innerHTML=""><strong>Role : </strong>Email Marketing Executive</li>
+                  <li class="careertext" innerHTML=""><strong>Industry : </strong>IT Services</li>
+                  <li class="careertext" innerHTML=""><strong>Employment Type : </strong>Full Time, Permanent</li>
+                  <li class="careertext" innerHTML=""><strong>Budget : </strong>As per company standard</li>
+                  <li class="careertext" innerHTML=""><strong>Desired Candidate Profile : </strong>
+                    <ol>
+                      <li><span>Building and managing client relationships. Be a strategic advisory to the customer in
+                          transforming their business with the help of IT services. Carry Revenue target and drive
+                          growth on
+                          named account prospects.</span></li>
+                      <li><span>Provide team representation and set proper client expectations. Executed strategies to
+                          maximize
+                          delivery rates, speed, minimize spam complaints and email bounces.</span></li>
+                      <li><span>Prepare weekly sales reports and submit them to management for weekly review.</span>
+                      </li>
+                      <li><span>Planned and deployed email campaigns for each of these countries and worked closely with
+                          designers
+                          throughout the process.</span></li>
+                      <li><span>Identify opportunities to improve the effectiveness of email marketing programs or
+                          processes from
+                          in-depth knowledge of campaign management and email execution tools.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Desired Skills : </strong>
+                    <ol>
+                      <li><span>Web technologies knowledge.</span></li>
+                      <li><span>Lead generation strategies.</span></li>
+                      <li><span>Script Writing.</span></li>
+                      <li><span>Dealing with clients, clients follow ups.</span></li>
+                      <li><span>International sales experience.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Functional Area : </strong>
+                    <ol>
+                      <li><span>Marketing, Advertising.</span></li>
+                      <li><span>Client Acquisition.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Our Client is very eager to screen profiles
+                      quickly and get started on this asap. Thanks...</span></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay === 5">
+                <h3>We are Hiring - Oracle Technical/Functional Consultant - Any Module</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Thailand (Bangkok)/ Gurgaon,
+                    Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Oracle Technical/Functional
+                    Consultant – Any Module</li>
+                  <li class="careertext" innerHTML=""><strong>Customer : </strong>US Client</li>
+                  <li class="careertext" innerHTML=""><strong>Language : </strong>Fluency in Thai and English</li>
+                  <li class="careertext" innerHTML=""><strong>No. Of Positions : </strong>4-5</li>
+                  <li class="careertext" innerHTML=""><strong>Experience : </strong>4+ Years</li>
+                  <li class="careertext" innerHTML=""><strong>Budget : </strong>As per company standard</li>
+                  <li class="careertext" innerHTML=""><strong>Skill's Required : </strong>
+                    <ol>
+                      <li><span>4+ Years of Experience in any module of Oracle ERP R12 Module can be either Order
+                          Management or Finance or Manufacturing or Supply Chain Management etc
+                          Even someone with good experience in a single module is OK so far it's part of Oracle ERP R12
+                          Product.</span></li>
+                      <li><span>Experience in product Oracle ERP R12 is MUST. We don’t require any Oracle DBA but ONLY
+                          Oracle ERP developer.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Required Qualifications : </strong>Bachelor Of Technology
+                    degree or equivalent experience.</li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Our Client is very eager to screen profiles
+                      quickly and get started on this asap. Thanks...</span></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay === 6">
+                <h3>We are Hiring - DotNet + React - Dot Net Framework, ASP.NET, C#</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <!-- <li class="careertext" innerHTML=""><strong>Job Location : </strong>Hyderabad</li> -->
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>DotNet + React - Dot Net
+                    Framework, ASP.NET, C#</li>
+                  <li class="careertext" innerHTML=""><strong>Customer : </strong>One of the Best IT Company in India
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>No. Of Positions : </strong>4-5</li>
+                  <li class="careertext" innerHTML=""><strong>Experience : </strong>3-8 Years</li>
+                  <li class="careertext" innerHTML=""><strong>Budget : </strong>As per company standard</li>
+                  <li class="careertext" innerHTML=""><strong>Skill's Required : </strong>
+                    <ol>
+                      <li><strong>Database skills - </strong><span>SQL programming, Microsoft SQL Server, NoSQL,
+                          DocumentDB</span></li>
+                      <li><strong>Scripting - </strong><span>JavaScript</span></li>
+                      <li><span>Project Management</span></li>
+                      <li><span>Service-Oriented Architecture (SOA), Web Services</span></li>
+                      <li><span>MVC and MVVM Architectures</span></li>
+                      <li><span>JavaScript, JavaScript object model</span></li>
+                      <li><span>React.js and its core principles</span></li>
+                      <li><span>React Native</span></li>
+                      <li><span>Typescript</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Required Qualifications : </strong>Bachelor Of Technology
+                    degree or equivalent experience.</li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Our Client is very eager to screen profiles
+                      quickly and get started on this asap. Thanks...</span></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay === 7">
+                <h3>We are Hiring - Microsoft Power BI Developer - Data Visualization & Analysis</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Microsoft Power BI Developer -
+                    Data Visualization & Analysis</li>
+                  <li class="careertext" innerHTML=""><strong>Responsibilities & Duties : </strong>
+                    <ol>
+                      <li><span>0 - 2 years experience developing Power BI solutions and reporting</span></li>
+                      <li><span>0 - 2 years experience in Data Visualization and Analysis</span></li>
+                      <li><span>0 - 2 years experience in Excel Pivot/vLookup/Reports etc.</span></li>
+                      <li><span>Experience working with dataset ingestion, data model creation, reports, dashboards,
+                          KPIs, Power BI Pro features, workspaces, security, etc.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Preferred Qualifications : </strong>
+                    <ol>
+                      <li><span>ETL, SSAS and SSIS experience.</span></li>
+                      <li><span>Strong data modeling experience.</span></li>
+                      <li><span>Experience in building data marts.</span></li>
+                      <li><span>Experience working with a variety of stakeholders, from managers to technical resources,
+                          to include the translation of business requirements into operational measures and
+                          reports.</span></li>
+                      <li><span>AgileScrum project experience nice to have.</span></li>
+                      <li><span>High level of demonstrable proficiency with Microsoft Excel, including Power Query,
+                          Power Pivot.</span></li>
+                      <li><span>Connections to external data sources, REST APIs, pivot tables, charts, and
+                          slicers.</span></li>
+                      <li><span>Proven ability to create, publish, and manage content packs.</span></li>
+                      <li><span>Deep understanding of security as it pertains to data access, scope, and distribution of
+                          reports and Dashboards.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Thanks...</span></li>
+                </ul>
+              </ng-container>
+              <ng-container *ngIf="ajay === 8">
+                <h3>We are Hiring - Azure Cloud Lead with up to 10 Years of Experience on Data Factory, Lake, Brick and
+                  Synapse</h3>
+                <ul style="word-spacing:1px;line-height:1.7;list-style: none;" *ngFor="let dis of item.dis"
+                  [hidden]="item.hide">
+                  <li class="careertext" innerHTML=""><strong>Job Location : </strong>Gurgaon, Haryana</li>
+                  <li class="careertext" innerHTML=""><strong>Job Overview : </strong>Azure Cloud Lead with up to 10
+                    Years of Experience on Data Factory, Lake, Brick and Synapse</li>
+                  <li class="careertext" innerHTML=""><strong>Responsibilities & Duties : </strong>
+                    <ol>
+                      <li><span>Ability to understand the client requirements and be able to work independently, as part
+                          of a distributed team across geographies.</span></li>
+                      <li><span>Ability to move data from any sources to Azure Blob/Data Lake/Azure SQLDB/Azure SQL
+                          DW.</span></li>
+                      <li><span>Should be able to implement Azure Data Factory, Pipelines, U-SQL.</span></li>
+                      <li><span>Should have a strong understanding on ETL/Data warehousing.</span></li>
+                      <li><span>Ability to write SQL Queries</span></li>
+                      <li><span>Should be able to learn new technologies and cross-skill as per project need</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Preferred Qualifications : </strong>
+                    <ol>
+                      <li><span>Required Qualifications BTech/MTech or equivalent degree.</span></li>
+                    </ol>
+                  </li>
+                  <li class="careertext" innerHTML=""><strong>Contact Us : </strong><span>Interested applicants, please
+                      share your profile at <a href="mailto:pranay@akscellenceinfo.com">pranay@akscellenceinfo.com</a>
+                      or you can reach me at my Mobile# +91-98112-33516, Thanks...</span></li>
                 </ul>
               </ng-container>
             </div>

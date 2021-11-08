@@ -154,4 +154,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x;
     }
+
+    .carousel-control {
+      width: 5%;
+   }
   /*-------------end of clients--------------------------------*/
